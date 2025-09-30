@@ -1,3 +1,20 @@
+# FEGA SOP - EXAMPLE SOP for Reporting Unreasonable Users
+
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0009` |
+| Template version | `—` |
+| Topic | User-facing Processes |
+| SOP type | SOP |
+| Node | — |
+| Instance version | `—` |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `—` | `—` | — | Initial release | — |
+
 <table style="width:96%;">
 <colgroup>
 <col style="width: 96%" />

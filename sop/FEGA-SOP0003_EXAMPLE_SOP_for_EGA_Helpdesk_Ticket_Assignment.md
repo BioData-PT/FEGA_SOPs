@@ -1,5 +1,19 @@
-| SOP for EGA Helpdesk Ticket Assignment |
-|----------------------------------------|
+# FEGA SOP - EXAMPLE SOP for EGA Helpdesk Ticket Assignment
+
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0003` |
+| Template version | `—` |
+| Topic | Internal Node Processes |
+| SOP type | SOP |
+| Node | — |
+| Instance version | `—` |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `—` | `—` | — | Initial release | — |
 
 | Document Owner    | Giselle Kerry - Senior Helpdesk Officer    |
 |-------------------|--------------------------------------------|

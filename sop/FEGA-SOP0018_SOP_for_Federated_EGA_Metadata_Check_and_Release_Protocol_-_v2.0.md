@@ -1,3 +1,20 @@
+# FEGA SOP - SOP for Federated EGA Metadata Check and Release Protocol - v2.0
+
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0018` |
+| Template version | `—` |
+| Topic | Joint CEGA/FEGA Node Processes |
+| SOP type | SOP |
+| Node | Joint |
+| Instance version | `—` |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `—` | `—` | — | Initial release | — |
+
 February 2024 - Version 2.0
 
 # Purpose

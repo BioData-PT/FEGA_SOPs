@@ -1,12 +1,30 @@
-## SOP for Federated EGA Helpdesk - FEGA Request from submitter to submit to FEGA Portugal
+# FEGA SOP - SOP for Federated EGA Helpdesk - FEGA Request from submitter to submit to FEGA Portugal
 
-| Document Owner | BioData.pt                                    |
-|----------------|-----------------------------------------------|
-| Authors        | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
-| Version        | 1.1                                           |
-| Document Code  | FEGA-PT-Submission-Request-1                  |
-| Effective date | 25-03-2025                                    |
-| Origin         | Adapted from Central EGA SOP V2.0             |
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0019` |
+| Template version | `v1.1` |
+| Topic | SOP for Federated EGA Helpdesk |
+| SOP type | SOP |
+| Node | FEGA-PT |
+| Instance version | `v1.1` |
+
+## Document Overview
+
+| Field | Value |
+| -- | -- |
+| Document Owner | BioData.pt |
+| Authors | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
+| Version | 1.1 |
+| Document Code | FEGA-PT-Submission-Request-1 |
+| Effective date | 25-03-2025 |
+| Origin | Adapted from Central EGA SOP V2.0 |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `v1.1` | `v1.1` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 25-03-2025 |
 
 ### Purpose
 

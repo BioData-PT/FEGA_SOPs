@@ -1,10 +1,30 @@
-| Document Owner    | Aina Jené - CEGA Operations Manager (CRG) |
-|-------------------|-------------------------------------------|
-| Contributors      | Name(s) - Role(s)/Title(s)                |
-| Version           | 1.0                                       |
-| Effective date    | DD-MM-YYYY                                |
-| Approvals         | Name(s)                                   |
-| Next revision due | DD-MM-YYYY                                |
+# FEGA SOP - EXAMPLE SOP for Handling Dataset Release
+
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0005` |
+| Template version | `—` |
+| Topic | User-facing Processes |
+| SOP type | SOP |
+| Node | — |
+| Instance version | `—` |
+
+## Document Overview
+
+| Field | Value |
+| -- | -- |
+| Document Owner | Aina Jené - CEGA Operations Manager (CRG) |
+| Contributors | Name(s) - Role(s)/Title(s) |
+| Version | 1.0 |
+| Effective date | DD-MM-YYYY |
+| Approvals | Name(s) |
+| Next revision due | DD-MM-YYYY |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `—` | `—` | Name(s) - Role(s)/Title(s) | Initial release | DD-MM-YYYY |
 
 ## Purpose
 

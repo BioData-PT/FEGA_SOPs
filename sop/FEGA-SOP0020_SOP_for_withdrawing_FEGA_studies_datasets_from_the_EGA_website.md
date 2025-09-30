@@ -1,4 +1,19 @@
-**SOP for withdrawing FEGA studies/datasets from the EGA website**
+# FEGA SOP - SOP for withdrawing FEGA studies/datasets from the EGA website
+
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0020` |
+| Template version | `—` |
+| Topic | Joint CEGA/FEGA Node Processes |
+| SOP type | SOP |
+| Node | Joint |
+| Instance version | `—` |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `—` | `—` | — | Initial release | — |
 
 Current implementation
 

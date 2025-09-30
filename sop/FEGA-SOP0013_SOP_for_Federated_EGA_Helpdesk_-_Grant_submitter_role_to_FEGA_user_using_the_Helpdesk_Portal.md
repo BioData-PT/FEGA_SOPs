@@ -1,13 +1,30 @@
-**SOP for Federated EGA Helpdesk - Grant submitter role to FEGA user
-using the Helpdesk Portal**
+# FEGA SOP - SOP for Federated EGA Helpdesk - Grant submitter role to FEGA user using the Helpdesk Portal
 
-| Document Owner | BioData.pt                                    |
-|----------------|-----------------------------------------------|
-| Authors        | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
-| Version        | 1.0                                           |
-| Document Code  | FEGA-PT-Grant-Submitter-Role-1                |
-| Effective date | 07-04-2025                                    |
-| Origin         | Adapted from Central EGA SOP V1.0             |
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0013` |
+| Template version | `v1.1` |
+| Topic | SOP for Federated EGA Helpdesk |
+| SOP type | SOP |
+| Node | FEGA-PT |
+| Instance version | `v1.0` |
+
+## Document Overview
+
+| Field | Value |
+| -- | -- |
+| Document Owner | BioData.pt |
+| Authors | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
+| Version | 1.0 |
+| Document Code | FEGA-PT-Grant-Submitter-Role-1 |
+| Effective date | 07-04-2025 |
+| Origin | Adapted from Central EGA SOP V1.0 |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `v1.1` | `v1.0` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 07-04-2025 |
 
 **Purpose**
 

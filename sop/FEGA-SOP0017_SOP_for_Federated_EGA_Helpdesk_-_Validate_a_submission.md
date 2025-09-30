@@ -1,9 +1,27 @@
-**SOP for Federated EGA Helpdesk - Validate a submission**
+# FEGA SOP - SOP for Federated EGA Helpdesk - Validate a submission
 
+| Metadata | Value |
+| -- | -- |
+| Template ID | `FEGA-SOP0017` |
+| Template version | `v1.0` |
+| Topic | SOP for Federated EGA Helpdesk |
+| SOP type | SOP |
+| Node | CEGA |
+| Instance version | `—` |
+
+## Document Overview
+
+| Field | Value |
+| -- | -- |
 | Document Owner | Aina Jené - EGA-CRG Operations Manager |
-|----------------|----------------------------------------|
-| Version        | 1.0                                    |
-| Effective date | 31-05-2023                             |
+| Version | 1.0 |
+| Effective date | 31-05-2023 |
+
+## Document History
+
+| Template version | Instance version | Author(s) | Description of changes | Date |
+| -- | -- | -- | -- | -- |
+| `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
 
 **Purpose**
 
