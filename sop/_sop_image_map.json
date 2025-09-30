@@ -1,0 +1,112 @@
+{
+  "EXAMPLE SOP for Changing User Institution.docx": {
+    "code": "FEGA-SOP0002",
+    "md": "FEGA-SOP0002_EXAMPLE_SOP_for_Changing_User_Institution.md",
+    "images": []
+  },
+  "EXAMPLE SOP for EGA Helpdesk Ticket Assignment.docx": {
+    "code": "FEGA-SOP0003",
+    "md": "FEGA-SOP0003_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Assignment.md",
+    "images": []
+  },
+  "EXAMPLE SOP for EGA Helpdesk Ticket Management.docx": {
+    "code": "FEGA-SOP0004",
+    "md": "FEGA-SOP0004_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Management.md",
+    "images": []
+  },
+  "EXAMPLE SOP for Handling Incomplete Submissions.docx": {
+    "code": "FEGA-SOP0006",
+    "md": "FEGA-SOP0006_EXAMPLE_SOP_for_Handling_Incomplete_Submissions.md",
+    "images": []
+  },
+  "EXAMPLE SOP for Handling Unresponsive DACs.docx": {
+    "code": "FEGA-SOP0007",
+    "md": "FEGA-SOP0007_EXAMPLE_SOP_for_Handling_Unresponsive_DACs.md",
+    "images": []
+  },
+  "EXAMPLE SOP for Reporting Unreasonable Users.docx": {
+    "code": "FEGA-SOP0009",
+    "md": "FEGA-SOP0009_EXAMPLE_SOP_for_Reporting_Unreasonable_Users.md",
+    "images": []
+  },
+  "EXAMPLE SOP for Users Sharing Credentials.docx": {
+    "code": "FEGA-SOP0010",
+    "md": "FEGA-SOP0010_EXAMPLE_SOP_for_Users_Sharing_Credentials.md",
+    "images": []
+  },
+  "SOP for Federated EGA Helpdesk - Add new Helpdesk officers to your Helpdesk Portal.docx": {
+    "code": "FEGA-SOP0012",
+    "md": "FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md",
+    "images": [
+      "FEGA-SOP0012_image_1.png",
+      "FEGA-SOP0012_image_2.png",
+      "FEGA-SOP0012_image_3.png"
+    ]
+  },
+  "SOP for Federated EGA Helpdesk - Grant submitter role to FEGA user using the Helpdesk Portal.docx": {
+    "code": "FEGA-SOP0013",
+    "md": "FEGA-SOP0013_SOP_for_Federated_EGA_Helpdesk_-_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md",
+    "images": [
+      "FEGA-SOP0013_image_1.png",
+      "FEGA-SOP0013_image_2.png",
+      "FEGA-SOP0013_image_3.png",
+      "FEGA-SOP0013_image_4.png"
+    ]
+  },
+  "SOP for Federated EGA Helpdesk - How to obtain Helpdesk role for the first time_.docx": {
+    "code": "FEGA-SOP0014",
+    "md": "FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md",
+    "images": []
+  },
+  "SOP for Federated EGA Helpdesk - Impersonate a FEGA user.docx": {
+    "code": "FEGA-SOP0015",
+    "md": "FEGA-SOP0015_SOP_for_Federated_EGA_Helpdesk_-_Impersonate_a_FEGA_user.md",
+    "images": [
+      "FEGA-SOP0015_image_1.png",
+      "FEGA-SOP0015_image_2.png",
+      "FEGA-SOP0015_image_3.png",
+      "FEGA-SOP0015_image_4.png"
+    ]
+  },
+  "SOP for Federated EGA Helpdesk - Release a FEGA dataset.docx": {
+    "code": "FEGA-SOP0016",
+    "md": "FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md",
+    "images": [
+      "FEGA-SOP0016_image_1.png",
+      "FEGA-SOP0016_image_2.png",
+      "FEGA-SOP0016_image_3.png",
+      "FEGA-SOP0016_image_4.png",
+      "FEGA-SOP0016_image_5.png"
+    ]
+  },
+  "SOP for Federated EGA Helpdesk - Validate a submission.docx": {
+    "code": "FEGA-SOP0017",
+    "md": "FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md",
+    "images": [
+      "FEGA-SOP0017_image_1.png",
+      "FEGA-SOP0017_image_2.png",
+      "FEGA-SOP0017_image_3.png",
+      "FEGA-SOP0017_image_4.png",
+      "FEGA-SOP0017_image_5.png",
+      "FEGA-SOP0017_image_6.png",
+      "FEGA-SOP0017_image_7.png"
+    ]
+  },
+  "SOP for Federated EGA Metadata Check and Release Protocol - v2.0.docx": {
+    "code": "FEGA-SOP0018",
+    "md": "FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release_Protocol_-_v2.0.md",
+    "images": []
+  },
+  "SOP for Federated EGA Request from submitter to submit to FEGA node - v2.0.docx": {
+    "code": "FEGA-SOP0019",
+    "md": "FEGA-SOP0019_SOP_for_Federated_EGA_Request_from_submitter_to_submit_to_FEGA_node_-_v2.0.md",
+    "images": [
+      "FEGA-SOP0019_image_1.png"
+    ]
+  },
+  "TEMPLATE Federated EGA SOP - v1.1.docx": {
+    "code": "FEGA-SOP0021",
+    "md": "FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md",
+    "images": []
+  }
+}
