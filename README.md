@@ -4,11 +4,13 @@ Below you can find the full list of Standard Operating Procedures (SOPs) templat
 
 | Name | Identifier | Template version | Topic | SOP type | Node | Instance version | Steps | Last updated |
 | --- | --- | ---: | --- | --- | --- | ---: | ---: | --- |
-| FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-Submission-Request-1](sop/FEGA-SOP0019_SOP_for_Federated_EGA_Request_from_submitter_to_submit_to_FEGA_node_-_v2.0.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 7 | 25-03-2025 |
-| Grant submitter role to FEGA user using the Helpdesk Portal | [FEGA-PT-Grant-Submitter-Role-1](sop/FEGA-SOP0013_SOP_for_Federated_EGA_Helpdesk_-_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.0 | 6 | 07-04-2025 |
+| FEGA Request from submitter to submit to FEGA node (template) | [FEGA-SOP0019](sop/FEGA-SOP0019_SOP_for_Federated_EGA_Request_from_submitter_to_submit_to_FEGA_node_-_v2.0.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 7 | 14-10-2025 |
+| FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-Submission-Request-1](sop/FEGA-PT-SOP0019_Request_from_submitter_to_submit_to_FEGA_Portugal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 7 | 14-10-2025 |
+| Grant submitter role to FEGA user using the Helpdesk Portal (template) | [FEGA-SOP0013](sop/FEGA-SOP0013_SOP_for_Federated_EGA_Helpdesk_-_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 6 | 14-10-2025 |
+| Grant submitter role to FEGA user using the Helpdesk Portal (FEGA Portugal) | [FEGA-PT-Grant-Submitter-Role-1](sop/FEGA-PT-SOP0013_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 6 | 14-10-2025 |
 | Add new Helpdesk officers to your Helpdesk Portal | [FEGA-SOP0012](sop/FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md) | v1.0 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 5 | 31-05-2023 |
 | How to obtain Helpdesk role for the first time | [FEGA-SOP0014](sop/FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md) | v1.0 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 6 | 31-05-2023 |
-| Impersonate a FEGA user | [FEGA-SOP0015](sop/FEGA-SOP0015_SOP_for_Federated_EGA_Helpdesk_-_Impersonate_a_FEGA_user.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 7 | 14-10-2025 |
+| Impersonate a FEGA user | [FEGA-SOP0015](sop/FEGA-SOP0015_SOP_for_Federated_EGA_Helpdesk_-_Impersonate_a_FEGA_user.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 8 | 14-10-2025 |
 | Release a FEGA dataset | [FEGA-SOP0016](sop/FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md) | v1.0 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 14 | 31-05-2023 |
 | Validate a submission | [FEGA-SOP0017](sop/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) | v1.0 | SOP for Federated EGA Helpdesk | SOP | CEGA | — | 14 | 31-05-2023 |
 | Handling Incomplete Submissions | [FEGA-SOP0006](sop/FEGA-SOP0006_EXAMPLE_SOP_for_Handling_Incomplete_Submissions.md) | — | User-facing Processes | SOP | — | — | 4 | — |
@@ -20,7 +22,6 @@ Below you can find the full list of Standard Operating Procedures (SOPs) templat
 | EGA Helpdesk Ticket Management | [FEGA-SOP0004](sop/FEGA-SOP0004_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Management.md) | — | Internal Node Processes | SOP | — | — | 9 | — |
 | EGA Helpdesk Ticket Assignment | [FEGA-SOP0003](sop/FEGA-SOP0003_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Assignment.md) | — | Internal Node Processes | SOP | — | — | 5 | — |
 | Federated EGA Metadata Check and Release Protocol | [FEGA-SOP0018](sop/FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release_Protocol_-_v2.0.md) | — | Joint CEGA/FEGA Node Processes | SOP | Joint | — | — | — |
-| Federated EGA Request from submitter to submit to FEGA node | [FEGA-SOP0019](sop/FEGA-SOP0019_SOP_for_Federated_EGA_Request_from_submitter_to_submit_to_FEGA_node_-_v2.0.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 7 | 25-03-2025 |
 | Withdraw Dataset | [FEGA-SOP0020](sop/FEGA-SOP0020_SOP_for_withdrawing_FEGA_studies_datasets_from_the_EGA_website.md) | — | Joint CEGA/FEGA Node Processes | SOP | Joint | — | — | — |
 
 ## SOP Template

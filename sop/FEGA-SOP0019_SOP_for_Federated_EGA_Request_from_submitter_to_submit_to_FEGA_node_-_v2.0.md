@@ -1,81 +1,73 @@
-# FEGA SOP - SOP for Federated EGA Helpdesk - FEGA Request from submitter to submit to FEGA Portugal
+# FEGA SOP - SOP for Federated EGA Helpdesk - FEGA Request from submitter to submit to FEGA node
 
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0019` |
-| Template version | `v1.1` |
+| Template version | `v1.2` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
-| Node | FEGA-PT |
-| Instance version | `v1.1` |
+| Node | CEGA |
+| Instance version | `—` |
 
 ## Document Overview
 
 | Field | Value |
 | -- | -- |
-| Document Owner | BioData.pt |
-| Authors | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
+| Document Owner | Aina Jené - EGA-CRG Operations Manager |
 | Version | 1.1 |
-| Document Code | FEGA-PT-Submission-Request-1 |
-| Effective date | 25-03-2025 |
-| Origin | Adapted from Central EGA SOP V2.0 |
+| Effective date | 31-05-2023 |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.1` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 25-03-2025 |
+| `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
+| `v1.1` | `—` | Jorge Silva - BioData.pt and UAVR | Template alignment for GitHub publishing | 14-10-2025 |
+| `v1.2` | `—` | Jorge Silva - BioData.pt and UAVR | Clarified template vs instance; minor link adjustments | 14-10-2025 |
 
 ### Purpose
 
-Provide the full set of instructions and support to allow the user to
-start the data and metadata upload process into the FEGA node.
+Provide helpdesk officers with a repeatable process to onboard submitters
+requesting access to a FEGA node so that they can begin metadata and data
+submissions.
 
 ### Scope
 
-This SOP must be used to create a metadata-only submission account at
-CEGA for data submission to the FEGA Portugal node upon the completion
-of the FEGA nodes’ Data Processing Agreement (DPA) with the submitter.
-This SOP details how to use the Helpdesk to open the submission account
-for the submission of the metadata to CEGA.
+Use this SOP whenever a submitter completes the node-specific legal
+arrangements (for example, a Data Processing Agreement) and requests
+access to submit data through the FEGA pipelines. This SOP covers the
+steps handled via the FEGA Helpdesk Portal until the submitter can log in
+to the Submitter Portal for the node.
 
 ### Procedure
 
-1.  Submitter contacts the FEGA helpdesk requesting
-    to submit to FEGA.
+1.  The submitter contacts your FEGA helpdesk requesting access to submit
+    to your node.
 
-2.  Submitter obtains information from the FEGA
-    Portugal node that is required for submission.
+2.  Provide the submitter with the list of information required by your
+    FEGA node to progress the request. *(Email template \#1 can be
+    adapted)*.
 
-    1.  [Helpdesk template email to send to the
-        user](#bookmark=id.kizc0jj6ow6e)
+3.  The submitter signs and returns the Data Processing Agreement and any
+    related agreements required by your node.
 
-3.  Submitter signs and returns the Data Processing
-    Agreement (and any related agreements) to the FEGA node.
+    1.  Once legal approval is confirmed, send the registration guidance
+        email. *(Email template \#2 can be adapted).*
 
-    1.  [Register in EGA -
-        email](#bookmark=id.e2nwkjf08o6v) (ONLY after DPA
-        approved)
+4.  The submitter creates an account on the CEGA website, which CEGA will
+    validate as part of their standard onboarding process.
 
-4.  The Submitter creates an account on the CEGA
-    website, which CEGA will validate as a standard procedure.
+5.  After the CEGA account is validated, the submitter contacts your FEGA
+    helpdesk requesting the submitter role for your node.
 
-5.  After the user account is validated by the
-    central EGA. The submitter contacts the FEGA Portugal helpdesk
-    requesting to add a submitter role to their account.
+6.  A helpdesk admin grants the submitter role to the user by following
+    the SOP
+    [Grant submitter role to FEGA user using the Helpdesk Portal](./FEGA-SOP0013_SOP_for_Federated_EGA_Helpdesk_-_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md).
 
-6.  The FEGA Portugal helpdesk adds the submitter
-    role to the user account by using the FEGA helpdesk portal. (SOP:
-    [Adding submitter role using Helpdesk
-    Portal](https://docs.google.com/document/d/1hGn4W6DNFNdfLB-x3Oz8gWurPSHkajP1/edit?usp=drive_link&ouid=108280939628938870978&rtpof=true&sd=true))
+7.  Once the role is assigned, confirm to the user that they can now log
+    into the Submitter Portal for your node and begin the submission.
 
-7.  After the submitter role has been added for the
-    user, the user has access to the FEGA Portugal Submitter Portal and
-    can start the submission.
-
-    1.  [Confirmation email - sent to the user informing them that they
-        can now log into the FEGA Submitter
-        Portal.](#bookmark=kix.95vrvpyifubc)
+    1.  *(Optional)* Send a confirmation email using template \#3.
 
 #### Complete workflow
 
@@ -83,17 +75,17 @@ for the submission of the metadata to CEGA.
 
 ### Email Template \#1 - First set of information for new submitters
 
-**Subject:** Guidance for submission to FEGA Portugal
+**Subject:** Guidance for submission to FEGA {node name}
 
 Dear [Recipient Name],
 
-Thank you for reaching out to our Helpdesk. We are happy to assist you with the process of uploading data into FEGA Portugal. To get started, please provide the following details:
+Thank you for reaching out to our Helpdesk. We are happy to assist you with the process of uploading data into FEGA {node name}. To get started, please provide the following details:
 
 1. **Legal and ethical compliance**
 
-   - Start by contacting your institution's Data Protection Officer (DPO).
-   - Ensure you have the relevant ethics committee approval documents ready for submission.
-   - Completing the Data Processing Agreement (DPA) with the FEGA Portugal node is required.
+   - Contact your institution's Data Protection Officer (DPO).
+   - Ensure the relevant ethics committee approval documents are ready for submission.
+   - Completing the Data Processing Agreement (DPA) with FEGA {node name} is required.
    - While the DPO handles the legal tasks, we can already advance the technical steps.
 
 2. **Data information**
@@ -119,7 +111,7 @@ Warm regards,
 [Helpdesk Team]  \
 [Contact Information]
 
-### Email Template \#2
+### Email Template \#2 - Account registration
 
 **Subject:** Register in EGA
 
@@ -128,7 +120,7 @@ Dear [Recipient Name],
 Thank you for providing your documentation. We are glad to inform you that the DPA was approved and we can now proceed with the next phase of the submission.
 
 - If you are not yet registered in EGA, please do so at [https://ega-archive.org/register/](https://ega-archive.org/register/) so that you can upload the metadata for your submission.
-- If you are already registered, please confirm the email address used for your registration so that FEGA Portugal can add you as a submitter.
+- If you are already registered, please confirm the email address used for your registration so that FEGA {node name} can add you as a submitter.
 - If you do not remember the registration email, visit [https://profile.ega-archive.org/](https://profile.ega-archive.org/).
 
 Warm regards,
@@ -137,15 +129,15 @@ Warm regards,
 [Helpdesk Team]  \
 [Contact Information]
 
-### Email Template \#3
+### Email Template \#3 - Confirmation of submitter access
 
-**Subject:** Submitter role in EGA Portugal - data submission
+**Subject:** Submitter role activated for FEGA {node name} - data submission
 
 Dear [Recipient Name],
 
-We are pleased to let you know that you have been assigned the FEGA Portugal submitter role.
+We are pleased to let you know that you have been assigned the FEGA {node name} submitter role.
 
-You can now begin completing the metadata and uploading your data. Go to [https://submission.portugal.ega-archive.org](https://submission.portugal.ega-archive.org) and follow the guidance in the [Submit Data Tutorial](https://fegaportugal.biodata.pt/guides/submit-data/).
+You can now begin completing the metadata and uploading your data. Go to `https://submission.{fega}.ega-archive.org` and follow the guidance provided by your node.
 
 Please inform us once you have completed these steps.
 
