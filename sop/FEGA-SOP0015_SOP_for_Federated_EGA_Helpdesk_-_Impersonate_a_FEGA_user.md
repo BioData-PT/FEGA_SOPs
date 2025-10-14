@@ -3,27 +3,20 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0015` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | CEGA |
 | Instance version | `—` |
-
-## Document Overview
-
-| Field | Value |
-| -- | -- |
-| Document Owner | Aina Jené - EGA-CRG Operations Manager |
-| Version | 1.0 |
-| Effective date | 31-05-2023 |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
 | `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
+| `v1.1` | `—` | Jorge Silva - BioData.pt and UAVR | Update to Github and metadata | 14-10-2025 |
 
-**Purpose**
+## Purpose
 
 Once you have set up your FEGA Helpdesk Portal, you can impersonate a
 user and login as that user without sharing credentials. This is most
@@ -31,50 +24,48 @@ useful when a user reports an issue with their submission or with
 managing their data requests, and you can check their portal without
 sharing passwords. If you don’t know how to get access to your FEGA
 Helpdesk node for the first time, please follow
-[<u>this</u>](https://docs.google.com/document/d/1jW83i8TGJznCucpMe7FU0Cp1fiA1CgpO4D0cUiO6H8o/edit?usp=sharing)
+[<u>this</u>](./FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md)
 SOP.
 
-**Scope**
+## Scope
 
 Once you have set up your FEGA Helpdesk Portal, you can impersonate a
 user and login as that user without sharing credentials.
 
-**Procedure**
+## Procedure
 
-1.  *Log in to your FEGA Helpdesk Portal
+1. *Log in to your FEGA Helpdesk Portal
     (helpdesk.{fega}.ega-archive.org) with your credentials (you must be
     in the helpdesk group). Check
-    [<u>this</u>](https://docs.google.com/document/d/1jW83i8TGJznCucpMe7FU0Cp1fiA1CgpO4D0cUiO6H8o/edit)
+    [<u>this</u>](./FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md)
     SOP if you want to gain access for the first time. Or
-    [<u>this</u>](https://docs.google.com/document/d/1mOPc8VVBG_YPGhL9ZCBAopRuLziNWTJEiOhCKdw3gVQ/edit)
+    [<u>this</u>](./FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md)
     SOP if you already have an admin and would like to add more people.*
 
-2.  *Once you are logged in go to IMPERSONATE*
+2. *Once you are logged in go to IMPERSONATE*
 
 ![ ](../docs/images/FEGA-SOP0015_image_3.png)
 
-3.  *Type the full length of the username or email of the FEGA user you
+3. *Type the full length of the username or email of the FEGA user you
     want to check and select it from the drop-down menu*
 
 ![ ](../docs/images/FEGA-SOP0015_image_1.png)
 
-4.  *You will immediately obtain a token to impersonate the FEGA user.*
+4. *You will immediately obtain a token to impersonate the FEGA user.*
 
 ![ ](../docs/images/FEGA-SOP0015_image_2.png)
 
-1.  *You can also check the token by clicking on “View the impersonated
+6. *You can also check the token by clicking on “View the impersonated
     Token”*
 
-> <img
-> src="../docs/images/FEGA-SOP0015_image_5.png"
-> style="width:3.98583in;height:5.22396in" />
+![ ](../docs/images/FEGA-SOP0015_image_4.png)
 
-5.  *Once you are impersonating the user, you will see the different
+7. *Once you are impersonating the user, you will see the different
     roles that user is assigned to, and find a direct link to the portal
     they are using. In this case, this user is a submitter and can only
     impersonate the user in the Submitter Portal.*
 
-6.  *Click DROP SESSION whenever you want to stop impersonating the
+8. *Click DROP SESSION whenever you want to stop impersonating the
     user.*
 
 ![ ](../docs/images/FEGA-SOP0015_image_2.png)
