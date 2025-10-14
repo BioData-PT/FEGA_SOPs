@@ -43,19 +43,19 @@ FEGA Helpdesk Portal.
 3.  *A FEGA Helpdesk admin logs in to their FEGA Helpdesk Portal
     (`helpdesk.{fega}.ega-archive.org`) and opens the **ROLES** section.*
 
-![ ](../docs/images/FEGA-SOP0013_image_4.png)
+![ ](../../docs/images/FEGA-SOP0013_image_4.png)
 
 4.  *Search for the user created in step 1. Make sure to enter the full
     username or email address. The suggestion box might not appear.*
 
-![ ](../docs/images/FEGA-SOP0013_image_2.png)
+![ ](../../docs/images/FEGA-SOP0013_image_2.png)
 
 5.  *Select the submitter role for your node (`{fega} submitters`) and
     click **UPDATE ROLE** to apply the change.*
 
-![ ](../docs/images/FEGA-SOP0013_image_3.png)
+![ ](../../docs/images/FEGA-SOP0013_image_3.png)
 
 6.  *Confirm the role assignment with the user. They can now access the
     Submitter Portal for your node.*
 
-![ ](../docs/images/FEGA-SOP0013_image_1.png)
+![ ](../../docs/images/FEGA-SOP0013_image_1.png)
