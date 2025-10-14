@@ -1,43 +1,109 @@
-## Guidance on SOP Compliance Assessment
+## FEGA Guidance on SOP Compliance Assessment
 
-### The Importance of an SOP Compliance Framework.
+This document adapts the compliance assessment approach to the Federated EGA (FEGA) context. It replaces GDI‑specific references and aligns with this repository’s structure and practices.
 
-\[*Move “Variability in GDI nodes’ requirements” section here as part of the motivation for the framework*\]  
-SOP compliance is crucial to ensure that processes are consistent, compatible across systems and organisations, and able to be implemented, assessed, and improved. Assessing compliance is especially important in highly complex settings such as GDI, as it is essential for creating and maintaining a robust and functional system. All elements of the **GDI SOP Compliance Framework** (the “Compliance Framework”) slot together in a cycle which helps to maintain and continuously improve the system (Figure 1). 
+### Purpose
 
-![][image1]  
-Figure 1: Elements of the GDI SOP Compliance Framework.
+Provide FEGA nodes with a detailed, repeatable way to verify that SOPs are complete, current, and usable — for both CEGA templates and node‑specific instances — and to drive continuous improvements.
 
-SOPs and Policies (Figure 1, Step 1\) are the backbone of the Compliance Framework. It is necessary for the senior leadership, those in charge of national nodes, to demonstrate commitment to the Compliance Framework (Step 2\) by nominating representatives to the Operations Committee (OC) and Security & Data Protection Committee (SDPC) and by setting priorities for their teams in terms of providing training in SOPs to node staff (Step 3). It is also important for node representatives to engage with other compliance-related activities, such as creating or implementing SOPs (Step 4\) and participating in compliance assessments (Step 5). Monitoring the adherence to SOPs using compliance assessments will highlight areas where processes could or must be improved (Step 6). Executing the Compliance Framework will lead to regular revisions and improvements of GDI SOPs and Policies, closing a cycle which ensures continuous improvement, node excellence, and trust. 
+### Scope
 
-### Variability in GDI node requirements
+Applies to SOPs hosted in this repo:
+- Templates: `sop/templates` (CEGA/common)
+- Node instances: `sop/instances` (e.g., FEGA‑PT)
 
-Multiple national nodes participate in the GDI initiative. The most advanced nodes aim to become fully operational by May 2026, while others are still in the process of setting up their infrastructures. Some nodes are linked to existing infrastructures that already provide services with an established quality management system and possibly within an (ISO-) accredited environment. Other nodes are based within an academic environment or are establishing new services and infrastructures with little experience in a compliance framework.  
+### Repository and layout
 
-This guidance document aims to provide practical information for all nodes, which will help them progress from any level they may be at. 
+- Repository: https://github.com/BioData-PT/FEGA_SOPs
+- Index and navigation: `README.md` (separate Templates and Node Instances tables)
+- SOP template starting point: `sop/templates/FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md`
+- Images: `docs/images/` (use relative paths from SOP files)
 
-Initial steps would be a first engagement with the GDI SOP concept, such as connecting to the GDI-SOP GitHub repository. While the more advanced steps provide the concept of what would be expected by the SOP compliance assessment and reporting. This is depicted in Figure 2 below, followed by a description of the individual steps.
+### Roles
 
-![][image2]  
-Figure 2
+- CEGA/FEGA Operations: owns templates; ensures consistency; reviews PRs.
+- Node maintainers: own node instances; align with templates; propose improvements.
+- Optional peer reviewer: adds a second check across nodes.
 
-1. ### Connect to GDI-SOP GitHub repository & set up a GDI SOP repository branch for your node.
+### Cadence
 
-*The GDI-SOP GitHub repository is the source-of-truth resource to request, modify and maintain GDI-related SOPs. It provides the necessary support for version control and tracking of actions relating to the documents.* 
+- On every SOP change via PR (template or instance).
+- Periodic spot‑checks (e.g., quarterly) and after major platform updates.
 
-1. Become a member of the GDI GitHub organisation by requesting an invitation from one of the GDI GitHub organisation owners listed here: [https://github.com/orgs/GenomicDataInfrastructure/people?query=role%3Aowner](https://github.com/orgs/GenomicDataInfrastructure/people?query=role%3Aowner)   
-   2. Familiarise yourself with how to use the GDI GitHub repository for SOPs by following the introduction document for GDI SOP Maintainers available here: [https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/docs/GDI-SOP\_github-introduction-for-maintainers.md](https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/docs/GDI-SOP_github-introduction-for-maintainers.md) or by watching the recorded video here: [20241101-GH\_introduction\_for\_maintainers.mp4](https://drive.google.com/file/d/1bECkeSBS4k7-64QWVyoNrZEWhGJZxnpw/view?usp=drive_link)  
-   3. Follow the instructions in the document above (1.2.) to create a GDI-SOP GitHub repository branch for your GDI node, which is necessary to engage with processes like creating, reviewing or modifying SOPs.  
-   4. Read the “GDI-SOP charter” here:  
-      [https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/docs/GDI-SOP\_charter.md](https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/docs/GDI-SOP_charter.md) and the “SOP creation” SOP (GDI-SOP0007) here:  
-      [https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/sops/european-level/GDI-SOP0007\_sop-template-creation.md](https://github.com/GenomicDataInfrastructure/standard-operating-procedures/blob/main/sops/european-level/GDI-SOP0007_sop-template-creation.md) 
+### How to assess (step‑by‑step)
 
-2. ### Implement EU-wide GDI SOPs
+1. Locate entry in `README.md` and open the SOP. Confirm the README row is accurate (identifier, template version, node, instance version, steps, last updated).
+2. Check metadata and history at the top of the SOP. Ensure Template ID, Template version, Node, Instance version are present and the Document History table includes the current change.
+3. Verify structure: headings use `##` (Purpose, Scope, Procedure). Steps are concise and actionable. Anchors are stable and human‑readable.
+4. Validate links and images: cross‑links are in‑repo; image paths resolve and render; images live under `docs/images/` and use correct relative paths from the file location (e.g., `../../docs/images/...` for files under `sop/templates` or `sop/instances`).
+5. Numbering: templates use `FEGA-SOP####`; instances use node‑specific IDs (e.g., `FEGA-PT-SOP0013`). Avoid collisions between template IDs and instance identifiers.
+6. Cross‑references: instances should link to local node instances when appropriate; link to templates only when referencing the generic version.
+7. Decision and notes: determine Compliant | Minor findings | Changes required. Record notes in the PR (see Reporting format below).
 
-*GDI is a huge multinational effort comprising many nodes and member states across the EU. In order to implement a coherent system, functioning seamlessly across the network, it is important to implement key processes that will be the same for all nodes. These SOPs relate to, for example, the process for creating an SOP (GDI-SOP0007).* 
+### Checklist — All SOPs
 
-1. To ensure that the most up-to-date version of the SOP is being used, EU-wide SOPs can be accessed through the GitHub folder:  
-   [https://github.com/GenomicDataInfrastructure/standard-operating-procedures/tree/main/sops/european-level](https://github.com/GenomicDataInfrastructure/standard-operating-procedures/tree/main/sops/european-level) 
+Mandatory
+- Metadata table present and complete (Template ID, Template version, Topic, SOP type, Node, Instance version).
+- Document History includes an initial release and the current change.
+- Headings use `##` (Purpose, Scope, Procedure). Steps are clear and unambiguous.
+- Images render; paths are relative to `docs/images/` from the file location.
+- Cross‑links use in‑repo Markdown paths; external links are intentional and current.
+- README row is correct (identifier, versions, steps, node, date).
+
+Recommended
+- Consistent terminology with adjacent SOPs. Stable anchors for deep links.
+- “Steps” count in README matches the Procedure.
+
+### Checklist — Templates (sop/templates)
+
+Mandatory
+- Template ID follows `FEGA-SOP####`; `Node` is `CEGA` (or `Joint`).
+- Content is node‑agnostic; use placeholders like `{fega}` or `{node name}`.
+- Version bumps recorded in Document History for template changes.
+
+Recommended
+- Cross‑references to other templates use `sop/templates/...` relative paths.
+- Examples (e.g., emails) are generic or marked with placeholders.
+
+### Checklist — Node Instances (sop/instances)
+
+Mandatory
+- Instance identifier follows the node scheme (e.g., `FEGA-PT-SOP0013`).
+- `Node` matches the instance (e.g., `FEGA-PT`) and instance version is set.
+- No numbering collision with CEGA template IDs in instance metadata.
+- Cross‑links point to the right SOPs (prefer node instance; link to templates when needed).
+- Node‑specific URLs (e.g., `helpdesk.{fega}.ega-archive.org`, `submission.{fega}.ega-archive.org`) are correct.
+
+Recommended
+- Replace legacy Google Doc links with in‑repo markdown where possible.
+- Ensure anchors and link texts are descriptive and current.
+- Keep naming consistent with README (identifier and title).
+
+### Outcomes
+
+- Compliant: All mandatory checks pass.
+- Minor findings: Non‑blocking; merge and raise a follow‑up issue.
+- Changes required: Blocking; fix before merge.
+
+### Reporting format (per SOP)
+
+- SOP: file path and identifier (as listed in `README.md`)
+- Result: Compliant | Minor findings | Changes required
+- Notes: brief bullets (e.g., “Fix image path at line 72; update README steps from 6→7”).
+- Reviewer/date
+
+### Change management
+
+- Make all updates via PRs. Summarize changes in the SOP’s Document History and update the README row.
+- For template updates that impact instances, open a follow‑up issue so node maintainers can align their SOPs.
+- Keep commit messages concise and specific to the SOP(s) touched.
+
+### Example evidence
+
+- File paths validated (e.g., `sop/templates/...`, `sop/instances/...`).
+- README rows updated with correct identifiers, versions, steps, dates.
+- Screenshots confirming images render after path changes.
+- Click‑through of cross‑links to confirm they open the right SOPs.
 
 3. ### Implement Node-specific GDI SOPs
 
