@@ -3,7 +3,7 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0012` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | CEGA |
