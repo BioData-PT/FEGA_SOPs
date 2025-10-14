@@ -9,13 +9,6 @@
 | Node | CEGA |
 | Instance version | `—` |
 
-## Document Overview
-
-| Field | Value |
-| -- | -- |
-| Document Owner | Aina Jené - EGA-CRG Operations Manager |
-| Version | 1.1 |
-| Effective date | 31-05-2023 |
 
 ## Document History
 
