@@ -64,7 +64,7 @@ to the Submitter Portal for the node.
 
 #### Complete workflow
 
-![ ](../docs/images/FEGA-SOP0019_image_1.png)
+![ ](../../docs/images/FEGA-SOP0019_image_1.png)
 
 ### Email Template \#1 - First set of information for new submitters
 

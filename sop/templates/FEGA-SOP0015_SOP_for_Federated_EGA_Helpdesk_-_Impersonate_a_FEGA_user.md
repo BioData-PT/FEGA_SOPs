@@ -44,21 +44,21 @@ user and login as that user without sharing credentials.
 
 2. *Once you are logged in go to IMPERSONATE*
 
-![ ](../docs/images/FEGA-SOP0015_image_3.png)
+![ ](../../docs/images/FEGA-SOP0015_image_3.png)
 
 3. *Type the full length of the username or email of the FEGA user you
     want to check and select it from the drop-down menu*
 
-![ ](../docs/images/FEGA-SOP0015_image_1.png)
+![ ](../../docs/images/FEGA-SOP0015_image_1.png)
 
 4. *You will immediately obtain a token to impersonate the FEGA user.*
 
-![ ](../docs/images/FEGA-SOP0015_image_2.png)
+![ ](../../docs/images/FEGA-SOP0015_image_2.png)
 
 6. *You can also check the token by clicking on “View the impersonated
     Token”*
 
-![ ](../docs/images/FEGA-SOP0015_image_4.png)
+![ ](../../docs/images/FEGA-SOP0015_image_4.png)
 
 7. *Once you are impersonating the user, you will see the different
     roles that user is assigned to, and find a direct link to the portal
@@ -68,4 +68,4 @@ user and login as that user without sharing credentials.
 8. *Click DROP SESSION whenever you want to stop impersonating the
     user.*
 
-![ ](../docs/images/FEGA-SOP0015_image_2.png)
+![ ](../../docs/images/FEGA-SOP0015_image_2.png)

@@ -46,15 +46,15 @@ Portal.
 
     1. *Click on “Pending Submissions” or*
 
-![ ](../docs/images/FEGA-SOP0017_image_2.png)
+![ ](../../docs/images/FEGA-SOP0017_image_2.png)
 
     2. *go to SUBMISSIONS*
 
-![ ](../docs/images/FEGA-SOP0017_image_6.png)
+![ ](../../docs/images/FEGA-SOP0017_image_6.png)
 
 2. *Check the summarised information in this tab*
 
-![ ](../docs/images/FEGA-SOP0017_image_3.png)
+![ ](../../docs/images/FEGA-SOP0017_image_3.png)
 
 *You must check that the following information is correct:*
 
@@ -72,11 +72,11 @@ Portal.
 3. *Once you have validated the relevant information from the
     submission(s). You can click the submission(s) and proceed to:*
 
-![ ](../docs/images/FEGA-SOP0017_image_5.png)
+![ ](../../docs/images/FEGA-SOP0017_image_5.png)
 
     1.  *Accept by clicking the APPROVE green button*
 
-![ ](../docs/images/FEGA-SOP0017_image_4.png)
+![ ](../../docs/images/FEGA-SOP0017_image_4.png)
 
 > *Once the submission is approved you will receive a message informing
 > that the submission is now validated and it will disappear from the
@@ -84,7 +84,7 @@ Portal.
 
     2.  *Decline by clicking the REJECT red button*
 
-![ ](../docs/images/FEGA-SOP0017_image_7.png)
+![ ](../../docs/images/FEGA-SOP0017_image_7.png)
 
 > *When you click to reject the submission it will show a window where
 > you must write a comment with the reason for rejecting the submission
@@ -95,4 +95,4 @@ Portal.
 > submission is now rejected and it will disappear from the list of
 > pending submissions.*
 
-![ ](../docs/images/FEGA-SOP0017_image_1.png)
+![ ](../../docs/images/FEGA-SOP0017_image_1.png)

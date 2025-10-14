@@ -129,7 +129,7 @@ RT ticket
     Release Date*) and extract the info of the submitter (*column name:
     Submitter*)
 
-![ ](../docs/images/FEGA-SOP0005_image_1.png)
+![ ](../../docs/images/FEGA-SOP0005_image_1.png)
 
 3.  Check the following information of your selected dataset:
 

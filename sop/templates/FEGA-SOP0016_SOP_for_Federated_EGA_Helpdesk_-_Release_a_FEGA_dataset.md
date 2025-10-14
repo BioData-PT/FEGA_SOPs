@@ -42,15 +42,15 @@ discoverable on the CEGA (Central EGA) website.
 
     1.  *Click on “Pending Datasets”*
 
-![ ](../docs/images/FEGA-SOP0016_image_1.png)
+![ ](../../docs/images/FEGA-SOP0016_image_1.png)
 
 2.  *go to DATASET RELEASE*
 
-![ ](../docs/images/FEGA-SOP0016_image_2.png)
+![ ](../../docs/images/FEGA-SOP0016_image_2.png)
 
 3.  *Check the summarised information in this tab*
 
-![ ](../docs/images/FEGA-SOP0016_image_5.png)
+![ ](../../docs/images/FEGA-SOP0016_image_5.png)
 
 4.  *Dataset info*
 
@@ -78,15 +78,15 @@ discoverable on the CEGA (Central EGA) website.
     1.  *One by one, by selecting the checkbox available next to the
         dataset info*
 
-![ ](../docs/images/FEGA-SOP0016_image_5.png)
+![ ](../../docs/images/FEGA-SOP0016_image_5.png)
 
 13.  *All at once, by selecting the checkbox on the top. Once you select
     the top checkbox, it will automatically select all datasets.*
 
-![ ](../docs/images/FEGA-SOP0016_image_3.png)
+![ ](../../docs/images/FEGA-SOP0016_image_3.png)
 
 14.  *When you have selected the datasets you want to release click the
     RELEASE button. It will show a message informing that the datasets
     have been released successfully*
 
-![ ](../docs/images/FEGA-SOP0016_image_4.png)
+![ ](../../docs/images/FEGA-SOP0016_image_4.png)

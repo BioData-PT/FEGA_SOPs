@@ -1,0 +1,266 @@
+policy,submitter_box,title,policy_text,ontology,code,version,url,modifier
+EGAP50000000108,fega-swe1-box-0001,Policy for sharing data for the EGA-SE end-to-end demonstrator.,"DATA ACCESS AGREEMENT
+
+Between:
+
+(1) [INSERT INSTITUTION DETAILS] (the ""Data Provider""); and
+
+(2) [INSERT INSTITUTION DETAILS] (the ""Recipient"").
+
+In response to the Recipient's request for access to the Data (as defined
+below), Data Provider and the Recipient agree as follows:
+
+
+1. DEFINITIONS
+
+""Data"" shall mean all and any human genetic and/or phenotypic data obtained from
+the Data Provider including associated metadata regarding the Data Subjects.
+Explicitly, Data does not include samples or biological materials;
+
+""Data Subject"" shall mean the person (irrespective of state of health) to whom
+Data refers and who has been informed of the purpose for which the Data is
+held and has given his/her informed consent thereto;
+
+""Intellectual Property"" means (i) patents, designs, trademarks and trade names
+(whether registered or unregistered), copyright and related rights, database
+rights, know-how and confidential information; (ii) all other intellectual
+property rights and similar or equivalent rights anywhere in the world which
+currently exist or are recognised in the future; and (iii) applications,
+extensions and renewals in relation to any such rights;
+
+""Registered User"" shall mean a Researcher (or an individual conducting Research
+under the supervision of a Researcher) that is employed by the Recipient and
+is bound by confidentiality and non-use obligations in respect of Data and
+who has signed this Agreement and has received acknowledgement of its
+acceptance. For the avoidance of doubt, ""Registered User"" may also include
+students, visiting academics, contractors, sub-contractors or independent
+consultants provided that any such individual is bound by confidentiality
+and non-use obligations no less onerous then those binding the Recipient’s
+employees;
+
+""Research"" shall mean research that is seeking to advance the understanding of
+[RESEARCH PURPOSE STATED IN INFORMED CONSENT OF DATA SUBJECTS and/or ETHICAL
+REVIEW PERMIT];
+
+""Researcher(s)"" shall mean an individual or individuals carrying out Research
+who has authored a relevant peer-reviewed article that Data Provider can
+locate on PubMed and who is still working in the field.
+
+
+2. PURPOSE
+
+The Recipient agrees to use Data only for the Research.
+
+
+3. CONFIDENTIALITY
+
+The Recipient agrees to preserve, at all times, the confidentiality of Data
+pertaining to identifiable Data Subjects. In particular, the Recipient
+undertakes not to use, or attempt to use the Data to deliberately compromise
+or otherwise infringe the confidentiality of information on Data Subjects
+and their right to privacy.
+
+
+4. Data Protection
+
+The Recipient agrees that it, and its Registered Users, are covered by and
+shall comply with the obligations contained in the General Data Protection
+Regulation (EU) 2016/679 (""GDPR""). In particular, the Recipient and its
+Registered Users understand their duties under this legislation in relation
+to the handling of Data and the rights of Data Subjects.
+
+Upon receipt of the Data, the Recipient will become Controller of the personal
+data as defined in the GDPR.
+
+The Recipient agrees that it, and its Registered Users, shall not analyse or
+make any use of the Data in such a way that has the potential to:
+
+(a) lead to the identification of any Data Subject; or
+(b) compromise the protected identity of any Data Subject in any way.
+
+
+5. ACCESS AND GOVERNANCE
+
+The Recipient agrees that it shall take all reasonable security precautions to
+keep the Data confidential. The Recipient agrees to, that under no
+circumstances, give access to Data to any third party, except to Registered
+Users (as described below). The Recipient agrees to only give access to Data, in
+whole or part, or any identifiable material derived from the Data, to a
+Registered User. The Recipient agrees that before it gives any Registered User
+access to Data, it shall first show the Registered User a copy of this Agreement
+and shall inform the Registered User that he or she must comply with the
+obligations contained in this Agreement and sign up to the provisions of this
+Agreement in the form set out at the end of this Agreement. The Recipient agrees
+that it shall only give Registered Users that are not Researchers (including but
+not limited to students or new researchers to the field) access to the Data if
+they are supervised by a Researcher who will take responsibility for such
+Registered Users’ use of the Data. Data Provider reserves the right to request
+and inspect Data security and management documentation to ensure the adequacy of
+Data protection measures in countries that have no national laws comparable to
+that pertaining in the European Economic Area (EEA).
+
+* The Data must be processed in a way that ensures the confidentiality and
+integrity of the Data.
+* Analysis and storage of the Data must be performed in a
+secure environment that ensures that only Registered users have access to
+the Data.
+* Transfer of Data must be done through encrypted channels.
+* The recipient must have standard operating routines that ensure that
+Registered users handle the Data in accordance with information security
+and legal requirements.
+* In the case of a personal Data breach, the Recipient must
+immediately inform the Provider, and the appropriate Data Protection
+Authority, of such an incident.
+
+
+6. ERRORS
+
+The Recipient agrees to notify the Data Provider of any errors detected in the
+Data.
+
+
+7. INTELLECTUAL PROPERTY
+
+The Recipient recognises that nothing in this Agreement shall operate to
+transfer to the Recipient or its Registered Users any Intellectual Property
+rights in or relating to the Data. The Recipient and its Registered Users shall
+have the right to develop Intellectual Property based on comparisons with their
+own Data.
+
+
+8. CITATIONS
+
+The Recipient agrees to acknowledge the creators and source of the Data in any
+work based in whole or part on the Data. The Recipient will also declare in any
+such work that those who carried out the original analysis and collection of the
+Data bear no responsibility for the further analysis or interpretation of it by
+the Recipient.
+
+
+9. TERMINATION OF AGREEMENT
+
+This Agreement will terminate immediately upon any breach of the provisions of
+this Agreement by the Recipient or by the Recipient’s Registered Users. The
+Recipient accepts that the changing ethical framework of human genetic research
+may lead to: (i) alteration to the provisions of this Agreement, in which case
+the Recipient may accept such alterations or terminate this Agreement; or (ii)
+the withdrawal of this Agreement in extreme circumstances. Either party shall
+have the right to terminate this Agreement with immediate effect upon giving
+written notice of termination to the other party. When the Research on the Data
+has been completed this Agreement will terminate.
+
+In the event that this Agreement is terminated in accordance with this Clause 9
+the Recipient shall destroy all Data at the direction of Data Provider.
+
+
+10. LEGAL STATEMENT
+
+The Recipient acknowledges that Data Provider and all other parties involved in
+the creation, funding or protection of the Data: make no warranty or
+representation, express or implied as to the accuracy, quality or
+comprehensiveness of the Data; and exclude to the fullest extent permitted by
+law all liability for actions, claims, proceedings, demands, losses (including
+but not limited to loss of profit), costs, awards damages and payments made by
+the Recipient that may arise (whether directly or indirectly) in any way
+whatsoever from the Recipient’s use of the Data, or from the unavailability of,
+or break in access to the Data for whatever reason. The Recipient understands
+that all the Data is protected by copyright and other intellectual property
+rights, such that duplication or sale of all of or part of the Data on any media
+is not permitted under any circumstances, except with the prior written consent
+of the Data Provider.
+
+
+11. GOVERNING LAW
+
+This Agreement (and any dispute, controversy, proceedings or claim of whatever
+nature arising out of this Agreement or its formation) shall be construed,
+interpreted and governed by the laws of Sweden and shall be subject to the
+exclusive jurisdiction of the Swedish courts.
+
+
+AGREED by the parties through their authorised signatories
+
+Data Provider:
+
+Authorised Signature:
+
+Name:
+
+Title:
+
+Date:
+
+
+
+Recipient:
+
+
+Authorised Signature:
+
+Name:
+
+Title:
+
+Date:
+
+Address:
+
+Telephone No:
+
+Email:
+
+
+
+Registered Users:
+
+The Registered Users acknowledge the contents of this Agreement and agree to
+comply with the obligations herein. For the avoidance of doubt the Registered
+Users are not a party to this Agreement.
+
+
+Signature:
+
+Name:
+
+Title:
+
+Date:
+
+Email:
+
+
+
+
+Signature:
+
+Name:
+
+Title:
+
+Date:
+
+Email:
+
+
+
+Signature:
+
+Name:
+
+Title:
+
+Date:
+
+Email:
+
+
+
+Signature:
+
+Name:
+
+Title:
+
+Date:
+
+Email:",,,,,

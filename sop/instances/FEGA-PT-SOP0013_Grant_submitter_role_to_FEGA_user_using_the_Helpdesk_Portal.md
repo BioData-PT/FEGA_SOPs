@@ -22,7 +22,7 @@ Once you have set up your FEGA Helpdesk Portal, you can manage who
 becomes a submitter to deposit data to your FEGA Portugal submitter
 portal. If you don’t know how to get access to your FEGA Helpdesk node
 for the first time, please follow
-[<u>this</u>](./FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md)
+[<u>this</u>](../templates/FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md)
 SOP.
 
 ## Scope
@@ -42,19 +42,19 @@ FEGA user on the FEGA Portugal Submitter Portal.
 3.  *A FEGA Helpdesk admin will login to their FEGA Helpdesk Portal
     (helpdesk.portugal.ega.archive.org) and go to ROLES*
 
-![ ](../docs/images/FEGA-SOP0013_image_4.png)
+![ ](../../docs/images/FEGA-SOP0013_image_4.png)
 
 4.  *Look for the member registered in step 1. Make sure you write the
     full username or email. The suggestion box is no longer
     implemented.*
 
-![ ](../docs/images/FEGA-SOP0013_image_2.png)
+![ ](../../docs/images/FEGA-SOP0013_image_2.png)
 
 5.  *Click on the role you want to grant to this user ({fega}
     submitters) and click on UPDATE ROLE*
 
-![ ](../docs/images/FEGA-SOP0013_image_3.png)
+![ ](../../docs/images/FEGA-SOP0013_image_3.png)
 
 6.  *Done!*
 
-![ ](../docs/images/FEGA-SOP0013_image_1.png)
+![ ](../../docs/images/FEGA-SOP0013_image_1.png)
