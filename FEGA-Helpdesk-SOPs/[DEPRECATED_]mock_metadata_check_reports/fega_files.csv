@@ -1,7 +1,0 @@
-count_files,file_fullpath,file_extension,file_stable_id,archived,dataset_stable_id,submitter_box
-6,Case6_M.1M.bam.c4gh,bam,EGAF50000000185,t,EGAD50000000028,fega-fin1-box-0001
-6,Case6_F.1M.bam.bai.c4gh,bai,EGAF50000000186,t,EGAD50000000028,fega-fin1-box-0001
-6,Case6_F.1M.bam.c4gh,bam,EGAF50000000187,t,EGAD50000000028,fega-fin1-box-0001
-6,Case6_IC.1M.bam.bai.c4gh,bai,EGAF50000000188,t,EGAD50000000028,fega-fin1-box-0001
-6,Case6_M.1M.bam.bai.c4gh,bai,EGAF50000000189,t,EGAD50000000028,fega-fin1-box-0001
-6,Case6_IC.1M.bam.c4gh,Bam,EGAF50000000190,t,EGAD50000000028,fega-fin1-box-0001

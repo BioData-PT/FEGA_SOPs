@@ -1,4 +1,0 @@
-ega_stable_id,alias,ega_stable_id,creation_time_at_src,title,bio_sample_id,subject_id,gender,phenotype,submitter_box
-EGAD50000000028,FEGA-DEMO-BAM-M,EGAN50000000310,2022-01-18 10:26:09.191,case6_index aligned,,Case 6_M.M,male,unknown,fega-fin1-box-0001
-EGAD50000000028,FEGA-DEMO-BAM-IC,EGAN50000000311,2022-01-18 10:27:31.504,case6_index aligned,,Case 6_IC.1M,male,Congenital myasthenic syndrome,fega-fin1-box-0001
-EGAD50000000028,FEGA-DEMO-BAM-F,EGAN50000000312,2022-01-18 10:07:55.377,case6_index aligned BAM,,Case 6_F.1M,female,Congenital myasthenic syndrome,fega-fin1-box-0001
