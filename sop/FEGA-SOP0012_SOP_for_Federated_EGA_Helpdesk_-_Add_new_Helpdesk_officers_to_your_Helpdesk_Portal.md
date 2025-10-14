@@ -3,7 +3,7 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0012` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | CEGA |
@@ -16,7 +16,7 @@
 | `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
 | `v1.1` | `—` | Jorge Oliveira - FEGA PT Operations | fixed links | 14-10-2025 |
 
-**Purpose**
+## Purpose
 
 Once you have set up your FEGA Helpdesk Portal, you can manage who
 accesses your Helpdesk portal from now on. If you don’t know how to get
@@ -24,12 +24,12 @@ access to your FEGA Helpdesk node for the first time, please follow
 [<u>this</u>](./FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md)
 SOP.
 
-**Scope**
+## Scope
 
 This SOP indicates the steps to follow in order to add new Helpdesk
 officers as admin for your FEGA Helpdesk Portal.
 
-**Procedure**
+## Procedure
 
 1.  *The new member to be added to your FEGA Helpdesk Portal needs to
     register as an EGA user by populating the [<u>registration
