@@ -16,12 +16,12 @@
 | `v1.1` | `v1.1` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 25-03-2025 |
 | `v1.1` | `v1.2` | Jorge Silva - BioData.pt and UAVR | Fixed internal bookmarks and SOP link | 14-10-2025 |
 
-### Purpose
+## Purpose
 
 Provide the full set of instructions and support to allow the user to
 start the data and metadata upload process into the FEGA node.
 
-### Scope
+## Scope
 
 This SOP must be used to create a metadata-only submission account at
 CEGA for data submission to the FEGA Portugal node upon the completion
@@ -29,7 +29,7 @@ of the FEGA nodes’ Data Processing Agreement (DPA) with the submitter.
 This SOP details how to use the Helpdesk to open the submission account
 for the submission of the metadata to CEGA.
 
-### Procedure
+## Procedure
 
 1.  Submitter contacts the FEGA helpdesk requesting
     to submit to FEGA.

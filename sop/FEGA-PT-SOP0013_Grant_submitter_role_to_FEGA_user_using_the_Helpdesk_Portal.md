@@ -16,7 +16,7 @@
 | `v1.1` | `v1.0` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 07-04-2025 |
 | `v1.1` | `v1.1` | Jorge Silva - BioData.pt and UAVR | Link corrections and numbering alignment | 14-10-2025 |
 
-**Purpose**
+## Purpose
 
 Once you have set up your FEGA Helpdesk Portal, you can manage who
 becomes a submitter to deposit data to your FEGA Portugal submitter
@@ -25,12 +25,12 @@ for the first time, please follow
 [<u>this</u>](./FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md)
 SOP.
 
-**Scope**
+## Scope
 
 This SOP indicates the steps to follow to grant a submitter role to a
 FEGA user on the FEGA Portugal Submitter Portal.
 
-**Procedure**
+## Procedure
 
 1.  *The new member to be added to your FEGA Helpdesk Portal needs to
     register as an EGA user by populating the [<u>registration

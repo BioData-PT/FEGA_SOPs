@@ -25,13 +25,13 @@
 | `v1.1` | `—` | Jorge Silva - BioData.pt and UAVR | Template alignment for GitHub publishing | 14-10-2025 |
 | `v1.2` | `—` | Jorge Silva - BioData.pt and UAVR | Clarified template vs instance; minor link adjustments | 14-10-2025 |
 
-### Purpose
+## Purpose
 
 Provide helpdesk officers with a repeatable process to onboard submitters
 requesting access to a FEGA node so that they can begin metadata and data
 submissions.
 
-### Scope
+## Scope
 
 Use this SOP whenever a submitter completes the node-specific legal
 arrangements (for example, a Data Processing Agreement) and requests
@@ -39,7 +39,7 @@ access to submit data through the FEGA pipelines. This SOP covers the
 steps handled via the FEGA Helpdesk Portal until the submitter can log in
 to the Submitter Portal for the node.
 
-### Procedure
+## Procedure
 
 1.  The submitter contacts your FEGA helpdesk requesting access to submit
     to your node.
