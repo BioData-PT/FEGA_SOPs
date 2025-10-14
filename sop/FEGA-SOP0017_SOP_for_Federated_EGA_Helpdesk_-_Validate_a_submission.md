@@ -3,25 +3,18 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0017` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | CEGA |
 | Instance version | `—` |
-
-## Document Overview
-
-| Field | Value |
-| -- | -- |
-| Document Owner | Aina Jené - EGA-CRG Operations Manager |
-| Version | 1.0 |
-| Effective date | 31-05-2023 |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
 | `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
+| `v1.1` | `—` | Miguel Cisneiros - FEGA-PT Data Steward | Update to Github and metadata | 14-10-2025 |
 
 **Purpose**
 
@@ -51,44 +44,37 @@ Portal.
 1.  *A FEGA Helpdesk admin will login to their FEGA Helpdesk Portal
     (helpdesk.{fega}.ega.archive.org) and*
 
-    1.  *Click on “Pending Submissions” or*
+    1. *Click on “Pending Submissions” or*
 
 ![ ](../docs/images/FEGA-SOP0017_image_2.png)
 
-2.  *go to SUBMISSIONS*
+    2. *go to SUBMISSIONS*
 
 ![ ](../docs/images/FEGA-SOP0017_image_6.png)
 
-2.  *Check the summarised information in this tab*
+2. *Check the summarised information in this tab*
 
 ![ ](../docs/images/FEGA-SOP0017_image_3.png)
 
 *You must check that the following information is correct:*
 
-1.  *Number of studies + relevant information*
-
-2.  *Number of samples + relevant information*
-
-3.  *Number of experiments + relevant information*
-
-4.  *Number of runs + relevant information*
-
-5.  *Number of analyses + relevant information*
-
-6.  *Number of datasets + relevant information*
-
-7.  *Number of files + relevant information*
-
-8.  *Submitter*
+    1.  *Number of studies + relevant information*
+    2.  *Number of samples + relevant information*
+    3.  *Number of experiments + relevant information*
+    4.  *Number of runs + relevant information*
+    5.  *Number of analyses + relevant information*
+    6.  *Number of datasets + relevant information*
+    7.  *Number of files + relevant information*
+    8.  *Submitter*
 
 <!-- -->
 
-3.  *Once you have validated the relevant information from the
+3. *Once you have validated the relevant information from the
     submission(s). You can click the submission(s) and proceed to:*
 
 ![ ](../docs/images/FEGA-SOP0017_image_5.png)
 
-1.  *Accept by clicking the APPROVE green button*
+    1.  *Accept by clicking the APPROVE green button*
 
 ![ ](../docs/images/FEGA-SOP0017_image_4.png)
 
@@ -96,7 +82,7 @@ Portal.
 > that the submission is now validated and it will disappear from the
 > list of pending submissions.*
 
-2.  *Decline by clicking the REJECT red button*
+    2.  *Decline by clicking the REJECT red button*
 
 ![ ](../docs/images/FEGA-SOP0017_image_7.png)
 
