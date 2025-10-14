@@ -3,17 +3,18 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0014` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
-| Node | FEGA-PT |
-| Instance version | `1.0` |
+| Node | CEGA |
+| Instance version | `—` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.0` | `1.0` | Miguel Cisneiros - FEGA-PT Data Steward | Initial release | 15-10-2025 |
+| `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
+| `v1.1` | `—` | Miguel Cisneiros - FEGA-PT Data Steward | Initial release | 14-10-2025 |
 
 **Purpose**
 
