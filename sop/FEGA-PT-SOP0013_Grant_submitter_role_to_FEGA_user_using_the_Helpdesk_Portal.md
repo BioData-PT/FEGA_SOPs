@@ -9,17 +9,6 @@
 | Node | FEGA-PT |
 | Instance version | `v1.1` |
 
-## Document Overview
-
-| Field | Value |
-| -- | -- |
-| Document Owner | BioData.pt |
-| Authors | Jorge Oliveira, Miguel Cisneiros, Jorge Silva |
-| Version | 1.0 |
-| Document Code | FEGA-PT-Grant-Submitter-Role-1 |
-| Effective date | 07-04-2025 |
-| Origin | Adapted from Central EGA SOP V1.0 |
-
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
@@ -33,7 +22,7 @@ Once you have set up your FEGA Helpdesk Portal, you can manage who
 becomes a submitter to deposit data to your FEGA Portugal submitter
 portal. If you don’t know how to get access to your FEGA Helpdesk node
 for the first time, please follow
-[<u>this</u>](https://docs.google.com/document/d/1AzhK3B3NrwqJSB3hF6Ajw4_x_X2BaOnQ/edit?usp=drive_link&ouid=108280939628938870978&rtpof=true&sd=true)
+[<u>this</u>](./FEGA-SOP0012_SOP_for_Federated_EGA_Helpdesk_-_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md)
 SOP.
 
 **Scope**

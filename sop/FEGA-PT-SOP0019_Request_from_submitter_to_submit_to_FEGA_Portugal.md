@@ -56,8 +56,8 @@ for the submission of the metadata to CEGA.
 
 6.  The FEGA Portugal helpdesk adds the submitter
     role to the user account by using the FEGA helpdesk portal. (SOP:
-    [Adding submitter role using Helpdesk
-    Portal](https://docs.google.com/document/d/1hGn4W6DNFNdfLB-x3Oz8gWurPSHkajP1/edit?usp=drive_link&ouid=108280939628938870978&rtpof=true&sd=true))
+    [Grant submitter role to FEGA user using the Helpdesk
+    Portal](./FEGA-PT-SOP0013_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md))
 
 7.  After the submitter role has been added for the
     user, the user has access to the FEGA Portugal Submitter Portal and
