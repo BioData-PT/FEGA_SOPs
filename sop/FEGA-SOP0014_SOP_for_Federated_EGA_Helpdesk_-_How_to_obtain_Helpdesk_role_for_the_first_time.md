@@ -6,27 +6,18 @@
 | Template version | `v1.0` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
-| Node | CEGA |
-| Instance version | `—` |
-
-## Document Overview
-
-| Field | Value |
-| -- | -- |
-| Document Owner | Aina Jené - EGA-CRG Operations Manager |
-| Version | 1.0 |
-| Effective date | 31-05-2023 |
+| Node | FEGA-PT |
+| Instance version | `1.0` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
+| `v1.0` | `1.0` | Miguel Cisneiros - FEGA-PT Data Steward | Initial release | 15-10-2025 |
 
 **Purpose**
 
-If a FEGA node is interested in using the FEG Helpdesk Portal you can
-learn how to do it with this SOP. Being a FEGA Helpdesk and having
+Being a FEGA Helpdesk and having
 access to the FEGA Helpdesk Portal will allow you to set the submitter
 role and allow their submitters to use the Submitter Portal and start
 depositing data, check the summary of completed FEGA submissions, as
@@ -35,13 +26,11 @@ discoverability.
 
 **Scope**
 
-You can learn the necessary steps to gain access to the Helpdesk Portal
-of your Federated node for the first time.
 
 **Procedure**
 
 1.  *Register yourself as an EGA user by populating the [<u>registration
-    form</u>](https://the.test.ega-archive.org/register/).*
+    form</u>](https://ega-archive.org/register/).*
 
 2.  *CEGA Helpdesk will have to verify your account. Once it has been
     verified by CEGA Helpdesk you can proceed with step 3.*
