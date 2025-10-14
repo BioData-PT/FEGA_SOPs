@@ -26,8 +26,8 @@ Below you can find the complete list of FEGA SOP templates and node-specific ins
 
 | Name | Identifier | Template version | Topic | SOP type | Node | Instance version | Steps | Last updated |
 | --- | --- | ---: | --- | --- | --- | ---: | ---: | --- |
-| FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-Submission-Request-1](sop/FEGA-PT-SOP0019_Request_from_submitter_to_submit_to_FEGA_Portugal.md) | v1.2 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 7 | 14-10-2025 |
-| Grant submitter role to FEGA user using the Helpdesk Portal (FEGA Portugal) | [FEGA-PT-Grant-Submitter-Role-1](sop/FEGA-PT-SOP0013_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.2 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 6 | 14-10-2025 |
+| FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-SOP0019](sop/FEGA-PT-SOP0019_Request_from_submitter_to_submit_to_FEGA_Portugal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 7 | 14-10-2025 |
+| Grant submitter role to FEGA user using the Helpdesk Portal (FEGA Portugal) | [FEGA-PT-SOP0013](sop/FEGA-PT-SOP0013_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 6 | 14-10-2025 |
 
 ## SOP Template
 
