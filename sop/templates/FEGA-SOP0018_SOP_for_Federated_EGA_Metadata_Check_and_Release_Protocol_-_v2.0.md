@@ -40,9 +40,7 @@ study is released.</span>
 
 **<span class="mark">FEGA NODE:</span>**
 
-> Note: After the submitter finalizes the submitionThis SOP must only be followed when directly
-instructed to release a study or dataset by the authorised
-submitter.
+> Note: After  [<u>SOP0017</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) of validation is finalized and the authorized submitter has instructed the release of the dataset, the helpdesk should execute the following steps. 
 
 <span class="mark">Steps to complete by the FEGA node **before**
 checking the metadata and releasing the study</span>
