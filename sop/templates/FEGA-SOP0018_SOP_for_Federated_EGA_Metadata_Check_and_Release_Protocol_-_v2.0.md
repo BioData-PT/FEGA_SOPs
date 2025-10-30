@@ -6,7 +6,7 @@
 | Template version | `—` |
 | Topic | Joint CEGA/FEGA Node Processes |
 | SOP type | SOP |
-| Node | Joint |
+| Node | `-` |
 | Instance version | `—` |
 
 ## Document History
@@ -14,8 +14,8 @@
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
 | `—` | `—` | — | Initial release | — |
-
-February 2024 - Version 2.0
+| 2.0 | `—` | — | CEGA updated version | 02-2024 |
+| 2.1 | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | FAIR-FEGA template | 30-10-2025 |
 
 # Purpose
 
@@ -40,9 +40,9 @@ study is released.</span>
 
 **<span class="mark">FEGA NODE:</span>**
 
-***<span class="mark">Note: This SOP must only be followed when directly
+> Note: After the submitter finalizes the submitionThis SOP must only be followed when directly
 instructed to release a study or dataset by the authorised
-submitter.</span>***
+submitter.
 
 <span class="mark">Steps to complete by the FEGA node **before**
 checking the metadata and releasing the study</span>
@@ -56,7 +56,7 @@ checking the metadata and releasing the study</span>
 3.  <span class="mark">Follow this SOP to check the metadata through the
     FEGA Helpdesk Portal and generate the EGA accession IDs ( SOP:
     [<u>Validate a
-    submission</u>](https://docs.google.com/document/d/1N3trvIQZ_4_1I2LmjZnGYMdgBevjzp4OdIwGX3EFfzs/edit))  
+    submission</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md))  
     </span>
 
 <span class="mark">1. Pre-release check of Study, DAC, and Dataset
