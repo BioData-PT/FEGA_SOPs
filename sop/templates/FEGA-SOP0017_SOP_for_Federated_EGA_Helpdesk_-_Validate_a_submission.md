@@ -58,14 +58,14 @@ Portal.
 
 *You must check that the following information is correct:*
 
-1. *Number of studies + relevant information*  
-2. *Number of samples + relevant information*  
-3. *Number of experiments + relevant information*  
-4. *Number of runs + relevant information*  
-5. *Number of analyses + relevant information*  
-6. *Number of datasets + relevant information*  
-7. *Number of files + relevant information*  
-8. *Submitter*
+   - *Number of studies + relevant information*
+   - *Number of samples + relevant information*
+   - *Number of experiments + relevant information*
+   - *Number of runs + relevant information*
+   - *Number of analyses + relevant information*
+   - *Number of datasets + relevant information*
+   - *Number of files + relevant information*
+   - *Submitter*
 
 
 <!-- -->
