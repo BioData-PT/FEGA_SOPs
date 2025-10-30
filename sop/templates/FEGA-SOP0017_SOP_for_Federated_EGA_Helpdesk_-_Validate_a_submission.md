@@ -6,7 +6,7 @@
 | Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
-| Node | CEGA |
+| Node | `—` |
 | Instance version | `—` |
 
 ## Document History
