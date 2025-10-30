@@ -44,11 +44,11 @@ Portal.
 1.  *A FEGA Helpdesk admin will login to their FEGA Helpdesk Portal
     (helpdesk.{fega}.ega.archive.org) and*
 
-    1. *Click on “Pending Submissions” or*
+  - *Click on “Pending Submissions” or*
 
 ![ ](../../docs/images/FEGA-SOP0017_image_2.png)
-
-    2. *go to SUBMISSIONS*
+  
+  - *go to SUBMISSIONS*
 
 ![ ](../../docs/images/FEGA-SOP0017_image_6.png)
 
@@ -75,7 +75,7 @@ Portal.
 
 ![ ](../../docs/images/FEGA-SOP0017_image_5.png)
 
-    1.  *Accept by clicking the APPROVE green button*
+  - *Accept by clicking the APPROVE green button*
 
 ![ ](../../docs/images/FEGA-SOP0017_image_4.png)
 
@@ -83,7 +83,7 @@ Portal.
 > that the submission is now validated and it will disappear from the
 > list of pending submissions.*
 
-    2.  *Decline by clicking the REJECT red button*
+  - *Decline by clicking the REJECT red button*
 
 ![ ](../../docs/images/FEGA-SOP0017_image_7.png)
 
