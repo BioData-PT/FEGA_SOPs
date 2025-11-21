@@ -16,6 +16,7 @@
 | `—` | `—` | — | Initial release | — |
 | 2.0 | `—` | — | CEGA updated version | 02-2024 |
 | 2.1 | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | FAIR-FEGA template | 30-10-2025 |
+| 2.2 | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | update template | 21-11-2025 |
 
 # Purpose
 
@@ -40,7 +41,7 @@ study is released.</span>
 
 **<span class="mark">FEGA NODE:</span>**
 
-> Note: After  [<u>SOP0017</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) of validation is finalized and the authorized submitter has instructed the release of the dataset, the helpdesk should execute the following steps. 
+> Note: After  [<u>SOP0017</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) of validation is finalized and the authorized submitter has instructed the release of the dataset, the helpdesk should execute the following steps.
 
 <span class="mark">Steps to complete by the FEGA node **before**
 checking the metadata and releasing the study</span>
@@ -56,6 +57,8 @@ checking the metadata and releasing the study</span>
     [<u>Validate a
     submission</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md))  
     </span>
+    
+![ ](../../docs/images/FEGA-SOP0018_image_1.png)
 
 <span class="mark">1. Pre-release check of Study, DAC, and Dataset
 descriptions</span>
