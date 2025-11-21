@@ -60,7 +60,7 @@ FEGA Helpdesk Portal.
 
 ![ ](../../docs/images/FEGA-SOP0013_image_1.png)
 
-7.    *Send an email to the submitter giving instructions on how to start the metadata submission on the EGA portal.*
+7.    *Send an email to the submitter giving instructions on how to start the metadata submission on the EGA portal, following the specification of your node. If your submission portal is provided by Central EGA, you can use a similar email to the following:*
 
 Subject: Instructions for submitting your metadata to EGA
 
@@ -72,8 +72,7 @@ Below you can find a short overview of how to submit your study metadata using t
 
 1. Access the EGA Submitter Portal
 
-* Open the EGA Submitter Portal in your browser.
-* If you do not yet have an EGA submitter account, please register first and make sure your account is linked to the correct institution/project.
+* Open the EGA Submitter Portal specific to your country in your browser, e.g. [<u>https://submission.portugal.ega-archive.org/<u>](https://submission.portugal.ega-archive.org/)
 
 2. Create a new study
 
