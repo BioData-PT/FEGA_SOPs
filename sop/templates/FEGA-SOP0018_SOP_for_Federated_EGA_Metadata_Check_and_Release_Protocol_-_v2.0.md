@@ -93,7 +93,9 @@ step.**</span>*
   - <span class="mark">For example, view public sample attributes given
     a Study Accession using the following (replace EGAS number with the
     study of interest):
-    [<u>https://ega-archive.org/metadata/v2/samples?queryBy=study&queryId=EGAS00001002472</u>](https://ega-archive.org/metadata/v2/samples?queryBy=study&queryId=EGAS00001002472)</span>
+    [<u>[https://metadata.ega-archive.org/studies/{id}]</u>](https://metadata.ega-archive.org/studies/{id})</span>
+
+> Note: to see how to query metadata go to [<u>[https://ega-archive.org/discovery/metadata/public-metadata-api/]</u>](https://ega-archive.org/discovery/metadata/public-metadata-api)
 
 - <span class="mark">**File** **report** with: number of files, file
   name, file type and check if there’s any phenotypic file.</span>
