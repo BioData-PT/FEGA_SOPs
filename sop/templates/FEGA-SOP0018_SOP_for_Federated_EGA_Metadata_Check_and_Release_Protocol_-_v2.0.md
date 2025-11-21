@@ -99,31 +99,30 @@ step.**</span>*
 
 - <span class="mark">**File** **report** with: number of files, file
   name, file type and check if there’s any phenotypic file.</span>
+  To check this, access the API via [<u>[https://metadata.ega-archive.org/datasets/{id}/files</u>](https://metadata.ega-archive.org/datasets/{id}/files) , replace ID with a dataset number e.g. EGAD00001000645.
 
 *<span class="mark">Note: Before accepting the submission to generate
 the EGA accession IDs, the FEGA Helpdesk has to either approve the DAC
 registration, or verify the following information of an already
 registered DAC:</span>*
+To check this, access the API via [<u>[https://metadata.ega-archive.org/files/{id}/dacs</u>](https://metadata.ega-archive.org/datasets/{id}/dacs) , replace ID with a dataset number e.g. EGAD00001000645.
 
 - <span class="mark">**Email address of DAC** must be valid and
   institutional.</span>
 
 <span class="mark">**DAC main contact** must be specified for the DAC.
-This can be checked by using the EGA metadata API, e.g.:
-<https://ega-archive.org/metadata/v2/dacs/EGAC00001000205></span>
 
 2\. After the check has been completed and everything is correct, the
-FEGA node approves the submission to generate the EGA accession IDs for
+FEGA node approves the submission to publish the EGA accession IDs for
 the submission
 
-3\. Notify the user (If necessary) that the check was completed
-successfully and the Study and Dataset IDs were generated and the study
-can be now released. Check with the user for a release date.
+3\. Notify the user that the check was completed, and the data is ready for release. Check with the user for a release date.
+After the release, the Study and Dataset IDs will be public.
 
 **<span class="mark">Release Study</span>**
 
-1.  <span class="mark">Follow the following SOP to Release the requested
-    study and dataset.</span>
+1.  <span class="mark">Follow the SOP to [<u>Release the requested
+    study and dataset</u>](https://github.com/BioData-PT/FEGA_SOPs/blob/main/sop/templates/FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md).</span> 
 
 2.  <span class="mark">Notify the DAC/authorised submitter that their
     study has been released and is available to view on the EGA
