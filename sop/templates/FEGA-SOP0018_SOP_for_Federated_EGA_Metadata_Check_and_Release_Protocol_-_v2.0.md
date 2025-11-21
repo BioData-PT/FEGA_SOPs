@@ -101,7 +101,7 @@ step.**</span>*
   name, file type and check if there’s any phenotypic file.</span>
   To check this, access the API via [<u>[https://metadata.ega-archive.org/datasets/{id}/files</u>](https://metadata.ega-archive.org/datasets/{id}/files) , replace ID with a dataset number e.g. EGAD00001000645.
 
-*<span class="mark">Note: Before accepting the submission to generate
+> Note: Before accepting the submission to generate
 the EGA accession IDs, the FEGA Helpdesk has to either approve the DAC
 registration, or verify the following information of an already
 registered DAC:</span>*
@@ -110,7 +110,7 @@ To check this, access the API via [<u>[https://metadata.ega-archive.org/files/{i
 - <span class="mark">**Email address of DAC** must be valid and
   institutional.</span>
 
-<span class="mark">**DAC main contact** must be specified for the DAC.
+- <span class="mark">**DAC main contact** must be specified for the DAC.
 
 2\. After the check has been completed and everything is correct, the
 FEGA node approves the submission to publish the EGA accession IDs for
