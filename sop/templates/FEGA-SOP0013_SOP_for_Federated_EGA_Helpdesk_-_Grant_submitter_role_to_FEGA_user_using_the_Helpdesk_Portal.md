@@ -59,3 +59,9 @@ FEGA Helpdesk Portal.
     Submitter Portal for your node.*
 
 ![ ](../../docs/images/FEGA-SOP0013_image_1.png)
+
+7.    *Send an email to the submitter giving instructions on how to start the metadata submission on the EGA portal.*
+
+
+
+8.    *
