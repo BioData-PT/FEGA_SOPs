@@ -38,6 +38,7 @@ Curated list of SOP templates and node-specific instances.
 | Validate a submission (FEGA Portugal) | [FEGA-PT-SOP0017](sop/instances/FEGA-PT-SOP0017_Validate_a_submission.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 3 | 15-12-2025 |
 | Metadata Check and Release Protocol (FEGA Portugal) | [FEGA-PT-SOP0018](sop/instances/FEGA-PT-SOP0018_Metadata_Check_and_Release_Protocol.md) | v2.2 | Joint CEGA/FEGA Node Processes | SOP | FEGA-PT | v1.0 | 8 | 15-12-2025 |
 | FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-SOP0019](sop/instances/FEGA-PT-SOP0019_Request_from_submitter_to_submit_to_FEGA_Portugal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 7 | 14-10-2025 |
+| Withdrawing FEGA studies/datasets from the EGA website (FEGA Portugal) | [FEGA-PT-SOP0020](sop/instances/FEGA-PT-SOP0020_Withdrawing_FEGA_studies_datasets_from_the_EGA_website.md) | v1.0 | Joint CEGA/FEGA Node Processes | SOP | FEGA-PT | v1.0 | 3 | 15-12-2025 |
 
 ## Authoring a new SOP
 Start from `sop/templates/FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md`.
