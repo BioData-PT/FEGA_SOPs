@@ -14,7 +14,7 @@
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
 | `v1.1` | `v1.1` | Jorge Oliveira, Miguel Cisneiros, Jorge Silva | Initial release | 25-03-2025 |
-| `v1.1` | `v1.2` | Jorge Silva - BioData.pt and UAVR | Fixed internal bookmarks and SOP link | 14-10-2025 |
+| `v1.1` | `v1.2` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed internal bookmarks and SOP link | 14-10-2025 |
 
 ## Purpose
 

@@ -7,27 +7,28 @@
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
-| Instance version | `v1.0` |
+| Instance version | `v1.1` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.0` | Jorge Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; added FEGA PT URLs and contacts | 14-10-2025 |
+| `v1.1` | `v1.0` | Jorge Miguel Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; added FEGA PT URLs and contacts | 14-10-2025 |
+| `v1.1` | `v1.1` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed URL typo; standardised heading format | 15-12-2025 |
 
-**Purpose**
+## Purpose
 
 Being a FEGA Portugal Helpdesk member with access to the Helpdesk Portal
 allows you to set the submitter role so submitters can use the Submitter
 Portal, check the summary of completed FEGA submissions, and release
 FEGA datasets to the CEGA website for discoverability.
 
-**Scope**
+## Scope
 
 Use this SOP to obtain your first-time access to the FEGA Portugal
 Helpdesk Portal.
 
-**Procedure**
+## Procedure
 
 1.  *Register yourself as an EGA user by populating the [<u>registration
     form</u>](https://ega-archive.org/register/).*
@@ -46,7 +47,7 @@ Helpdesk Portal.
     receive a notification and will be able to log in to the FEGA
     Portugal Helpdesk Portal:*
 
-    1.  *helpdesk.portugal.ega.archive.org*
+    1.  *helpdesk.portugal.ega-archive.org*
 
 6.  *From here on the FEGA Portugal node has access to the Helpdesk
     Portal and can assign roles to FEGA services (submitters and new

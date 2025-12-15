@@ -7,15 +7,16 @@
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
-| Instance version | `v1.0` |
+| Instance version | `v1.1` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.0` | Jorge Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
+| `v1.1` | `v1.0` | Jorge Miguel Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
+| `v1.1` | `v1.1` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed URL typo; standardised heading format; removed empty HTML comment | 15-12-2025 |
 
-**Purpose**
+## Purpose
 
 The purpose of this SOP is to establish a standardised process for
 validating a submission within the Federated EGA Helpdesk. The SOP
@@ -32,16 +33,16 @@ fosters transparency and accountability by providing a clear set of
 guidelines that all team members can follow uniformly, thus reducing
 potential errors, inconsistencies, and delays.
 
-**Scope**
+## Scope
 
 This SOP indicates the steps to follow in order to validate a FEGA
 submission once the user has finalised it through the FEGA Submitter
 Portal.
 
-**Procedure**
+## Procedure
 
 1.  *A FEGA Helpdesk admin will log in to the FEGA Portugal Helpdesk
-    Portal (helpdesk.portugal.ega.archive.org) and*
+    Portal (helpdesk.portugal.ega-archive.org) and*
 
   - *Click on “Pending Submissions” or*
 
@@ -65,9 +66,6 @@ Portal.
    - *Number of datasets + relevant information*
    - *Number of files + relevant information*
    - *Submitter*
-
-
-<!-- -->
 
 3. *Once you have validated the relevant information from the
     submission(s). You can click the submission(s) and proceed to:*

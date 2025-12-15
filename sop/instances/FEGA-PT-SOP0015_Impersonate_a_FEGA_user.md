@@ -7,13 +7,14 @@
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
-| Instance version | `v1.0` |
+| Instance version | `v1.1` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.0` | Jorge Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated URLs and node references | 14-10-2025 |
+| `v1.1` | `v1.0` | Jorge Miguel Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated URLs and node references | 14-10-2025 |
+| `v1.1` | `v1.1` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed URL typo; corrected step numbering | 15-12-2025 |
 
 ## Purpose
 
@@ -34,7 +35,7 @@ user and login as that user without sharing credentials.
 ## Procedure
 
 1. *Log in to the FEGA Portugal Helpdesk Portal
-    (helpdesk.portugal.ega.archive.org) with your credentials (you must
+    (helpdesk.portugal.ega-archive.org) with your credentials (you must
     be in the helpdesk group). Check
     [<u>this</u>](../templates/FEGA-SOP0014_SOP_for_Federated_EGA_Helpdesk_-_How_to_obtain_Helpdesk_role_for_the_first_time.md)
     SOP if you want to gain access for the first time. Or
@@ -54,17 +55,17 @@ user and login as that user without sharing credentials.
 
 ![ ](../../docs/images/FEGA-SOP0015_image_2.png)
 
-6. *You can also check the token by clicking on “View the impersonated
-    Token”*
+5. *You can also check the token by clicking on "View the impersonated
+    Token"*
 
 ![ ](../../docs/images/FEGA-SOP0015_image_4.png)
 
-7. *Once you are impersonating the user, you will see the different
+6. *Once you are impersonating the user, you will see the different
     roles that user is assigned to, and find a direct link to the portal
     they are using. In this case, this user is a submitter and can only
     impersonate the user in the Submitter Portal.*
 
-8. *Click DROP SESSION whenever you want to stop impersonating the
+7. *Click DROP SESSION whenever you want to stop impersonating the
     user.*
 
 ![ ](../../docs/images/FEGA-SOP0015_image_2.png)

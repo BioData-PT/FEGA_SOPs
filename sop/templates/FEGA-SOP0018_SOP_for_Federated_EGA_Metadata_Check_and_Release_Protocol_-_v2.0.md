@@ -1,129 +1,81 @@
-# FEGA SOP - SOP for Federated EGA Metadata Check and Release Protocol - v2.0
+# FEGA SOP - SOP for Federated EGA Metadata Check and Release Protocol
 
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0018` |
-| Template version | `—` |
+| Template version | `v2.2` |
 | Topic | Joint CEGA/FEGA Node Processes |
 | SOP type | SOP |
-| Node | `-` |
+| Node | Joint |
 | Instance version | `—` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `—` | `—` | — | Initial release | — |
-| 2.0 | `—` | — | CEGA updated version | 02-2024 |
-| 2.1 | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | FAIR-FEGA template | 30-10-2025 |
-| 2.2 | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | update template | 21-11-2025 |
+| `v1.0` | `—` | — | Initial release | — |
+| `v2.0` | `—` | — | CEGA updated version | 02-2024 |
+| `v2.1` | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | FAIR-FEGA template | 30-10-2025 |
+| `v2.2` | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | Update template | 21-11-2025 |
 
-# Purpose
+## Purpose
 
-To ensure that all public metadata submitted to Central EGA (CEGA) for a
-Federated EGA (FEGA) study is correct and does not contain any
-personally identifiable or sensitive information.This information is
-displayed on the EGA website and is searchable by users to enable data
-discovery. The FEGA Helpdesk must conduct a metadata review prior to
-releasing the study by using the FEGA Helpdesk Portal. After this review
-has been successfully completed, the FEGA Helpdesk can release the study
-with previous approval from the authorised submitter.
+To ensure that all public metadata submitted to Central EGA (CEGA) for a Federated EGA (FEGA) study is correct and does not contain any personally identifiable or sensitive information. This information is displayed on the EGA website and is searchable by users to enable data discovery. The FEGA Helpdesk must conduct a metadata review prior to releasing the study by using the FEGA Helpdesk Portal. After this review has been successfully completed, the FEGA Helpdesk can release the study with previous approval from the authorised submitter.
 
-# Scope
+## Scope
 
-<span class="mark">This SOP describes how FEGA Helpdesk shall complete a
-metadata review for sequencing datasets submitted to CEGA by the FEGA
-Submitter Portal (</span>https://submission.{fega-node}.ega-archive.org
-<span class="mark">) as part of an FEGA study and is required before the
-study is released.</span>
+This SOP describes how FEGA Helpdesk shall complete a metadata review for sequencing datasets submitted to CEGA by the FEGA Submitter Portal (`https://submission.{fega-node}.ega-archive.org`) as part of an FEGA study and is required before the study is released.
 
-# Procedure
+## Procedure
 
-**<span class="mark">FEGA NODE:</span>**
+**FEGA NODE:**
 
-> Note: After  [<u>SOP0017</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) of validation is finalized and the authorized submitter has instructed the release of the dataset, the helpdesk should execute the following steps.
+> Note: After [SOP0017](./FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) validation is finalized and the authorized submitter has instructed the release of the dataset, the helpdesk should execute the following steps.
 
-<span class="mark">Steps to complete by the FEGA node **before**
-checking the metadata and releasing the study</span>
+**Steps to complete by the FEGA node before checking the metadata and releasing the study:**
 
-1.  <span class="mark">Obtain the name of the submission from the
-    submitter for the study that they want to release.</span>
+1. *Obtain the name of the submission from the submitter for the study that they want to release.*
 
-2.  <span class="mark">Verify that the data files have been archived
-    correctly.</span>
+2. *Verify that the data files have been archived correctly.*
 
-3.  <span class="mark">Follow this SOP to check the metadata through the
-    FEGA Helpdesk Portal and generate the EGA accession IDs ( SOP:
-    [<u>Validate a
-    submission</u>](../templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md))  
-    </span>
-    
+3. *Follow this SOP to check the metadata through the FEGA Helpdesk Portal and generate the EGA accession IDs (SOP: [Validate a submission](./FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md))*
+
 ![ ](../../docs/images/FEGA-SOP0018_image_1.png)
 
-<span class="mark">1. Pre-release check of Study, DAC, and Dataset
-descriptions</span>
+4. *Pre-release check of Study, DAC, and Dataset descriptions*
 
-*<span class="mark">Note: Each FEGA node must have their own list of
-items to check. For example, the FEGA node might want to check that
-sample metadata does not contain any personally identifiable
-information. Checklists might differ between different FEGA nodes. **The
-FEGA node’s checklist is the one that must be reviewed in this
-step.**</span>*
+   *Note: Each FEGA node must have their own list of items to check. For example, the FEGA node might want to check that sample metadata does not contain any personally identifiable information. Checklists might differ between different FEGA nodes. **The FEGA node's checklist is the one that must be reviewed in this step.***
 
-<span class="mark">**Metadata checks include**:</span>
+   **Metadata checks include:**
 
-- <span class="mark">**Study title** should be no more than 30 words and
-  make sense to the user.</span>
+   - **Study title** should be no more than 30 words and make sense to the user.
 
-- <span class="mark">**Study description** should be 3-5 sentences and
-  should provide further details about the study (why, how,
-  what).</span>
+   - **Study description** should be 3-5 sentences and should provide further details about the study (why, how, what).
 
-- <span class="mark">**Dataset title** should be no more than 30 words
-  and should make sense to the user.</span>
+   - **Dataset title** should be no more than 30 words and should make sense to the user.
 
-- <span class="mark">**Dataset description** should be 2-4 sentences and
-  should provide further unique details about the specific dataset (why,
-  how, what).</span>
+   - **Dataset description** should be 2-4 sentences and should provide further unique details about the specific dataset (why, how, what).
 
-- <span class="mark">**Sample** **report** with public information in
-  the metadata API and a sample count (equal to the number of
-  rows).</span>
+   - **Sample report** with public information in the metadata API and a sample count (equal to the number of rows).
+     - For example, view public sample attributes given a Study Accession using the following (replace EGAS number with the study of interest): `https://metadata.ega-archive.org/studies/{id}`
 
-  - <span class="mark">For example, view public sample attributes given
-    a Study Accession using the following (replace EGAS number with the
-    study of interest):
-    [<u>[https://metadata.ega-archive.org/studies/{id}]</u>](https://metadata.ega-archive.org/studies/{id})</span>
+   > Note: To see how to query metadata go to [https://ega-archive.org/discovery/metadata/public-metadata-api/](https://ega-archive.org/discovery/metadata/public-metadata-api/)
 
-> Note: to see how to query metadata go to [<u>[https://ega-archive.org/discovery/metadata/public-metadata-api/]</u>](https://ega-archive.org/discovery/metadata/public-metadata-api)
+   - **File report** with: number of files, file name, file type and check if there's any phenotypic file.
+     - To check this, access the API via `https://metadata.ega-archive.org/datasets/{id}/files`, replace ID with a dataset number e.g. EGAD00001000645.
 
-- <span class="mark">**File** **report** with: number of files, file
-  name, file type and check if there’s any phenotypic file.</span>
-  To check this, access the API via [<u>[https://metadata.ega-archive.org/datasets/{id}/files</u>](https://metadata.ega-archive.org/datasets/{id}/files) , replace ID with a dataset number e.g. EGAD00001000645.
+   > Note: Before accepting the submission to generate the EGA accession IDs, the FEGA Helpdesk has to either approve the DAC registration, or verify the following information of an already registered DAC. To check this, access the API via `https://metadata.ega-archive.org/datasets/{id}/dacs`, replace ID with a dataset number e.g. EGAD00001000645.
 
-> Note: Before accepting the submission to generate
-the EGA accession IDs, the FEGA Helpdesk has to either approve the DAC
-registration, or verify the following information of an already
-registered DAC:</span>*
-To check this, access the API via [<u>[https://metadata.ega-archive.org/files/{id}/dacs</u>](https://metadata.ega-archive.org/datasets/{id}/dacs) , replace ID with a dataset number e.g. EGAD00001000645.
+   - **Email address of DAC** must be valid and institutional.
 
-- <span class="mark">**Email address of DAC** must be valid and
-  institutional.</span>
+   - **DAC main contact** must be specified for the DAC.
 
-- <span class="mark">**DAC main contact** must be specified for the DAC.
+5. *After the check has been completed and everything is correct, the FEGA node approves the submission to publish the EGA accession IDs for the submission.*
 
-2\. After the check has been completed and everything is correct, the
-FEGA node approves the submission to publish the EGA accession IDs for
-the submission
+6. *Notify the user that the check was completed, and the data is ready for release. Check with the user for a release date. After the release, the Study and Dataset IDs will be public.*
 
-3\. Notify the user that the check was completed, and the data is ready for release. Check with the user for a release date.
-After the release, the Study and Dataset IDs will be public.
+**Release Study:**
 
-**<span class="mark">Release Study</span>**
+7. *Follow the SOP to [Release the requested study and dataset](./FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md).*
 
-1.  <span class="mark">Follow the SOP to [<u>Release the requested
-    study and dataset</u>](https://github.com/BioData-PT/FEGA_SOPs/blob/main/sop/templates/FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md).</span> 
-
-2.  <span class="mark">Notify the DAC/authorised submitter that their
-    study has been released and is available to view on the EGA
-    website.</span>
+8. *Notify the DAC/authorised submitter that their study has been released and is available to view on the EGA website.*

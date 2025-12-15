@@ -7,14 +7,14 @@
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
-| Instance version | `v1.0` |
+| Instance version | `v1.1` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.0` | Jorge Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
-
+| `v1.1` | `v1.0` | Jorge Miguel Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
+| `v1.1` | `v1.1` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed URL typo; restructured step numbering | 15-12-2025 |
 
 ## Purpose
 
@@ -37,7 +37,7 @@ discoverable on the CEGA (Central EGA) website.
 ## Procedure
 
 1.  *A FEGA Helpdesk admin will log in to the FEGA Portugal Helpdesk
-    Portal (helpdesk.portugal.ega.archive.org) and*
+    Portal (helpdesk.portugal.ega-archive.org) and*
 
     1.  *Click on “Pending Datasets”*
 
@@ -47,45 +47,30 @@ discoverable on the CEGA (Central EGA) website.
 
 ![ ](../../docs/images/FEGA-SOP0016_image_2.png)
 
-3.  *Check the summarised information in this tab*
+3.  *Check the summarised information in this tab:*
+
+    - *Dataset info*
+    - *Study linked*
+    - *DAC and policy linked*
+    - *Number of archived files: it will always show the total number of archived files. Only once the FEGA node has archived the files the submitter will be able to finalise the submission. Hence, the files in this tab should always be archived.*
+    - *Submitter*
+    - *Expected Release Date*
+    - *Date of last dataset update*
+    - *Date of the dataset creation*
 
 ![ ](../../docs/images/FEGA-SOP0016_image_5.png)
 
-4.  *Dataset info*
-
-5.  *Study linked*
-
-6.  *DAC and policy linked*
-
-7.  *Number of archived files: it will always show the total number of
-    archived files. Only once the FEGA node has archived the files the
-    submitter will be able to finalise the submission. Hence, the files
-    in this tab should always be archived.*
-
-8.  *Submitter*
-
-9.  *Expected Release Date*
-
-10.  *Date of last dataset update*
-
-11.  *Date of the dataset creation*
-
-<!-- -->
-
-12.  *Select the datasets you want to release:*
+4.  *Select the datasets you want to release:*
 
     1.  *One by one, by selecting the checkbox available next to the
         dataset info*
 
 ![ ](../../docs/images/FEGA-SOP0016_image_5.png)
 
-13.  *All at once, by selecting the checkbox on the top. Once you select
-    the top checkbox, it will automatically select all datasets.*
+    2.  *All at once, by selecting the checkbox on the top. Once you select the top checkbox, it will automatically select all datasets.*
 
 ![ ](../../docs/images/FEGA-SOP0016_image_3.png)
 
-14.  *When you have selected the datasets you want to release click the
-    RELEASE button. It will show a message informing that the datasets
-    have been released successfully*
+5.  *When you have selected the datasets you want to release click the RELEASE button. It will show a message informing that the datasets have been released successfully*
 
 ![ ](../../docs/images/FEGA-SOP0016_image_4.png)

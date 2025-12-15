@@ -7,13 +7,14 @@
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
-| Instance version | `v1.0` |
+| Instance version | `v1.1` |
 
 ## Document History
 
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
-| `v1.1` | `v1.0` | Jorge Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
+| `v1.1` | `v1.0` | Jorge Miguel Silva - BioData.pt and UAVR | Initial FEGA Portugal instance; updated portal URL and node references | 14-10-2025 |
+| `v1.1` | `v1.1` | Jorge Miguel Silva - BioData.pt and UAVR | Fixed URL typo; converted HTML img tags to markdown | 15-12-2025 |
 
 ## Purpose
 
@@ -38,11 +39,9 @@ officers as admin for the FEGA Portugal Helpdesk Portal.
     verified by CEGA Helpdesk you can proceed with step 3.*
 
 3.  *A FEGA Helpdesk admin will log in to the FEGA Portugal Helpdesk
-    Portal (helpdesk.portugal.ega.archive.org) and go to ROLES*
+    Portal (helpdesk.portugal.ega-archive.org) and go to ROLES*
 
-> <img
-> src="../../docs/images/FEGA-SOP0012_image_2.png"
-> style="width:6.27083in;height:3.14083in" />
+![ ](../../docs/images/FEGA-SOP0012_image_2.png)
 
 4.  *Look for the member registered in step 1.*
     ![ ](../../docs/images/FEGA-SOP0012_image_3.png)
@@ -50,6 +49,4 @@ officers as admin for the FEGA Portugal Helpdesk Portal.
 5.  *Click on the role you want to grant to this user (portugal
     helpdesk) and click on UPDATE ROLES.*
 
-> <img
-> src="../../docs/images/FEGA-SOP0012_image_1.png"
-> style="width:6.26772in;height:2.15278in" />
+![ ](../../docs/images/FEGA-SOP0012_image_1.png)
