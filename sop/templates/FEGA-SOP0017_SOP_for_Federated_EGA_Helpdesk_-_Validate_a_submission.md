@@ -6,7 +6,7 @@
 | Template version | `v1.1` |
 | Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
-| Node | `—` |
+| Node | CEGA |
 | Instance version | `—` |
 
 ## Document History
@@ -16,33 +16,20 @@
 | `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
 | `v1.1` | `—` | Miguel Cisneiros - FEGA-PT Data Steward | Update to Github and metadata | 14-10-2025 |
 
-**Purpose**
+## Purpose
 
-The purpose of this SOP is to establish a standardised process for
-validating a submission within the Federated EGA Helpdesk. The SOP
-outlines the necessary steps and guidelines to ensure that all submitted
-data and accompanying documentation are thoroughly reviewed, verified,
-and validated in a consistent and efficient manner.
+The purpose of this SOP is to establish a standardised process for validating a submission within the Federated EGA Helpdesk. The SOP outlines the necessary steps and guidelines to ensure that all submitted data and accompanying documentation are thoroughly reviewed, verified, and validated in a consistent and efficient manner.
 
-By implementing this SOP, several valuable outcomes can be achieved.
-Firstly, it promotes quality assurance by ensuring that all submissions
-undergo a rigorous validation process. This helps to maintain the
-integrity, accuracy, and reliability of the data and associated
-information within the Federated EGA Helpdesk system. Secondly, the SOP
-fosters transparency and accountability by providing a clear set of
-guidelines that all team members can follow uniformly, thus reducing
-potential errors, inconsistencies, and delays.
+By implementing this SOP, several valuable outcomes can be achieved. Firstly, it promotes quality assurance by ensuring that all submissions undergo a rigorous validation process. This helps to maintain the integrity, accuracy, and reliability of the data and associated information within the Federated EGA Helpdesk system. Secondly, the SOP fosters transparency and accountability by providing a clear set of guidelines that all team members can follow uniformly, thus reducing potential errors, inconsistencies, and delays.
 
-**Scope**
+## Scope
 
-This SOP indicates the steps to follow in order to validate a FEGA
-submission once the user has finalised it through the FEGA Submitter
-Portal.
+This SOP indicates the steps to follow in order to validate a FEGA submission once the user has finalised it through the FEGA Submitter Portal.
 
-**Procedure**
+## Procedure
 
 1.  *A FEGA Helpdesk admin will login to their FEGA Helpdesk Portal
-    (helpdesk.{fega}.ega.archive.org) and*
+    (helpdesk.{fega}.ega-archive.org) and*
 
   - *Click on “Pending Submissions” or*
 
@@ -66,9 +53,6 @@ Portal.
    - *Number of datasets + relevant information*
    - *Number of files + relevant information*
    - *Submitter*
-
-
-<!-- -->
 
 3. *Once you have validated the relevant information from the
     submission(s). You can click the submission(s) and proceed to:*

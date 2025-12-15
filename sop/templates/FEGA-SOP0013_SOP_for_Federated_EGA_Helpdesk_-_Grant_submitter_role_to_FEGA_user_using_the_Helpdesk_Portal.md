@@ -119,4 +119,3 @@ Best regards,
 [Contact email]
 
 
-8.    *

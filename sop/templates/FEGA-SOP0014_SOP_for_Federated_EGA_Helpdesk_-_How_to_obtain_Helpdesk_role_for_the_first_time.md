@@ -16,19 +16,15 @@
 | `v1.0` | `—` | Aina Jené - EGA-CRG Operations Manager | Initial release | 31-05-2023 |
 | `v1.1` | `—` | Miguel Cisneiros - FEGA-PT Data Steward | Initial release | 14-10-2025 |
 
-**Purpose**
+## Purpose
 
-Being a FEGA Helpdesk and having
-access to the FEGA Helpdesk Portal will allow you to set the submitter
-role and allow their submitters to use the Submitter Portal and start
-depositing data, check the summary of completed FEGA submissions, as
-well as the possibility to release FEGA datasets to CEGA website for
-discoverability.
+Being a FEGA Helpdesk member with access to the FEGA Helpdesk Portal allows you to set the submitter role so submitters can use the Submitter Portal and start depositing data, check the summary of completed FEGA submissions, and release FEGA datasets to the CEGA website for discoverability.
 
-**Scope**
+## Scope
 
+Use this SOP to obtain your first-time access to your FEGA node's Helpdesk Portal.
 
-**Procedure**
+## Procedure
 
 1.  *Register yourself as an EGA user by populating the [<u>registration
     form</u>](https://ega-archive.org/register/).*
@@ -47,7 +43,7 @@ discoverability.
     receive a notification and will be able to log in to their specific
     FEGA Helpdesk Portal:*
 
-    1.  *helpdesk.{fega}.ega.archive.org*
+    1.  *helpdesk.{fega}.ega-archive.org*
 
 6.  *From here on the FEGA node has access to their Helpdesk Portal and
     can assign roles to their FEGA services (submitters and new helpdesk

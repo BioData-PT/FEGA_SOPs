@@ -39,18 +39,15 @@ officers as admin for your FEGA Helpdesk Portal.
     verified by CEGA Helpdesk you can proceed with step 3.*
 
 3.  *A FEGA Helpdesk admin will login to their FEGA Helpdesk Portal
-    (helpdesk.{fega}.ega.archive.org) ans go to ROLES*
+    (helpdesk.{fega}.ega-archive.org) and go to ROLES*
 
-> <img
-> src="../../docs/images/FEGA-SOP0012_image_2.png"
-> style="width:6.27083in;height:3.14083in" />
+![ ](../../docs/images/FEGA-SOP0012_image_2.png)
 
-4.  *Look for the member registered in step 1  *
-    ![ ](../../docs/images/FEGA-SOP0012_image_3.png)
+4.  *Look for the member registered in step 1.*
+
+![ ](../../docs/images/FEGA-SOP0012_image_3.png)
 
 5.  *Click on the role you want to grant to this user ({fega} helpdesk)
-    and click on UPDATE ROLES*
+    and click on UPDATE ROLES.*
 
-> <img
-> src="../../docs/images/FEGA-SOP0012_image_1.png"
-> style="width:6.26772in;height:2.15278in" />
+![ ](../../docs/images/FEGA-SOP0012_image_1.png)

@@ -55,17 +55,17 @@ user and login as that user without sharing credentials.
 
 ![ ](../../docs/images/FEGA-SOP0015_image_2.png)
 
-6. *You can also check the token by clicking on “View the impersonated
-    Token”*
+5. *You can also check the token by clicking on "View the impersonated
+    Token"*
 
 ![ ](../../docs/images/FEGA-SOP0015_image_4.png)
 
-7. *Once you are impersonating the user, you will see the different
+6. *Once you are impersonating the user, you will see the different
     roles that user is assigned to, and find a direct link to the portal
     they are using. In this case, this user is a submitter and can only
     impersonate the user in the Submitter Portal.*
 
-8. *Click DROP SESSION whenever you want to stop impersonating the
+7. *Click DROP SESSION whenever you want to stop impersonating the
     user.*
 
 ![ ](../../docs/images/FEGA-SOP0015_image_2.png)
