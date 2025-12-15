@@ -23,8 +23,6 @@ EGA Helpdesk provides assistance to its users by using the Request Tracker (RT) 
 
 This SOP should be followed by all Helpdesk staff at all times when taking and dealing with Helpdesk tickets and should be read in conjunction with the SOP for [EGA Helpdesk ticket assignment](./FEGA-SOP0003_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Assignment.md).
 
-<!-- TODO: Original link was to Google Doc: https://docs.google.com/document/d/1GQLrlTlaKzrdUWeOIAmQTSYodI6oYYZ7jJCjuEZeacE/edit - now links to SOP0003 -->
-
 ## Procedure
 
 1. Make sure you set up RT so you can instantly see tickets that are awaiting a reply when you log into the system.

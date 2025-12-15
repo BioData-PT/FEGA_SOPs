@@ -23,8 +23,6 @@ EGA Helpdesk provides support to its users by using the Request Tracker (RT) sys
 
 This SOP should be followed by all Helpdesk staff at all times when taking and dealing with Helpdesk tickets and should be read in conjunction with the SOP for [Managing EGA Helpdesk Tickets](./FEGA-SOP0004_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Management.md).
 
-<!-- TODO: Original link was to Google Doc: https://docs.google.com/document/d/1VzGptBRE2vrhQFfhJHKEgC1Qcnv5jvk7nx4PyMZiFPI/edit - now links to SOP0004 -->
-
 ## Procedure
 
 1. **Always** take the next ticket in the queue (unless it is specifically addressed to someone in which case let that HD individual know (if they are on annual/sick leave then take the ticket and answer if you can).

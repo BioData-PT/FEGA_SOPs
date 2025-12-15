@@ -50,9 +50,7 @@ If you have taken an RT ticket requesting to release a dataset, please follow th
 
 4. Once you find the dataset(s), check the following information:
 
-   1. Title + description is correct (same criteria as the metadata check SOP)
-
-      <!-- TODO: Original link was to Google Doc: https://docs.google.com/document/d/1xXJGkQ36XRmR5qAI0hzljx4tS1PKri-FwRF7ufF46Mg/edit - should link to SOP0018 or appropriate metadata check SOP -->
+   1. Title + description is correct (same criteria as the [Metadata Check and Release Protocol SOP](./FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release_Protocol_-_v2.0.md))
 
    2. The request in RT comes from the submitter in the Helpdesk Portal (*column name: Submitter*)
 
@@ -90,7 +88,7 @@ For those users that set an expected release date but did not created an RT tick
 
 3. Check the following information of your selected dataset:
 
-   1. Title + description is correct (same criteria as the metadata check SOP)
+   1. Title + description is correct (same criteria as the [Metadata Check and Release Protocol SOP](./FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release_Protocol_-_v2.0.md))
 
    2. The request in RT comes from the submitter in the Helpdesk Portal (*column name: Submitter*)
 
