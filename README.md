@@ -22,7 +22,7 @@ Curated list of SOP templates and node-specific instances.
 | Impersonate a FEGA user | [FEGA-SOP0015](sop/templates/FEGA-SOP0015_SOP_for_Federated_EGA_Helpdesk_-_Impersonate_a_FEGA_user.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | 8 | 14-10-2025 |
 | Release a FEGA dataset | [FEGA-SOP0016](sop/templates/FEGA-SOP0016_SOP_for_Federated_EGA_Helpdesk_-_Release_a_FEGA_dataset.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | 14 | 14-10-2025 |
 | Validate a submission | [FEGA-SOP0017](sop/templates/FEGA-SOP0017_SOP_for_Federated_EGA_Helpdesk_-_Validate_a_submission.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | CEGA | 14 | 14-10-2025 |
-| Metadata Check and Release | [FEGA-SOP0018](sop/templates/FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release_Protocol_-_v2.0.md) | v2.2 | SOP for Federated EGA Helpdesk | SOP | Joint | — | 21-11-2025 |
+| Metadata Check and Release | [FEGA-SOP0018](sop/templates/FEGA-SOP0018_SOP_for_Federated_EGA_Metadata_Check_and_Release.md) | v2.2 | SOP for Federated EGA Helpdesk | SOP | Joint | — | 21-11-2025 |
 | FEGA Request from submitter to submit to FEGA node | [FEGA-SOP0019](sop/templates/FEGA-SOP0019_SOP_for_Federated_EGA_Request_from_submitter_to_submit_to_FEGA_node_-_v2.0.md) | v1.2 | SOP for Federated EGA Helpdesk | SOP | CEGA | 7 | 14-10-2025 |
 | Withdraw Dataset | [FEGA-SOP0020](sop/templates/FEGA-SOP0020_SOP_for_withdrawing_FEGA_studies_datasets_from_the_EGA_website.md) | — | Joint CEGA/FEGA Node Processes | SOP | Joint | — | — |
 
@@ -36,7 +36,7 @@ Curated list of SOP templates and node-specific instances.
 | Impersonate a FEGA user (FEGA Portugal) | [FEGA-PT-SOP0015](sop/instances/FEGA-PT-SOP0015_Impersonate_a_FEGA_user.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 7 | 15-12-2025 |
 | Release a FEGA dataset (FEGA Portugal) | [FEGA-PT-SOP0016](sop/instances/FEGA-PT-SOP0016_Release_a_FEGA_dataset.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 5 | 15-12-2025 |
 | Validate a submission (FEGA Portugal) | [FEGA-PT-SOP0017](sop/instances/FEGA-PT-SOP0017_Validate_a_submission.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 3 | 15-12-2025 |
-| Metadata Check and Release (FEGA Portugal) | [FEGA-PT-SOP0018](sop/instances/FEGA-PT-SOP0018_Metadata_Check_and_Release_Protocol.md) | v2.2 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.0 | 8 | 15-12-2025 |
+| Metadata Check and Release (FEGA Portugal) | [FEGA-PT-SOP0018](sop/instances/FEGA-PT-SOP0018_Metadata_Check_and_Release.md) | v2.2 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.0 | 8 | 15-12-2025 |
 | FEGA Request from submitter to submit to FEGA Portugal | [FEGA-PT-SOP0019](sop/instances/FEGA-PT-SOP0019_Request_from_submitter_to_submit_to_FEGA_Portugal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 7 | 14-10-2025 |
 | Withdrawing FEGA studies/datasets from the EGA website (FEGA Portugal) | [FEGA-PT-SOP0020](sop/instances/FEGA-PT-SOP0020_Withdrawing_FEGA_studies_datasets_from_the_EGA_website.md) | v1.0 | Joint CEGA/FEGA Node Processes | SOP | FEGA-PT | v1.0 | 3 | 15-12-2025 |
 
