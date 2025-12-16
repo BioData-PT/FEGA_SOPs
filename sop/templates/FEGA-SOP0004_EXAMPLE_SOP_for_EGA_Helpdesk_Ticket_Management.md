@@ -3,61 +3,39 @@
 | Metadata         | Value                   |
 | ---------------- | ----------------------- |
 | Template ID      | `FEGA-SOP0004`          |
-| Template version | `v1.0`                  |
+| Template version | `v1.1`                  |
 | Topic            | Internal Node Processes |
 | SOP type         | SOP                     |
-| Node             | {{Node}}                |
-| Instance version | `{{InstanceVersion}}`   |
+| Node             | `-`                |
+| Instance version | `-`   |
 
 ## Document History
 
 | Template version | Instance version      | Author(s)                               | Description of changes | Date           |
 | ---------------- | --------------------- | --------------------------------------- | ---------------------- | -------------- |
 | `v1.0`           | `—`                   | Giselle Kerry - Senior Helpdesk Officer | Initial release        | 30-09-2019     |
-| `v1.0`           | `{{InstanceVersion}}` | {{AuthorList}}                          | {{ChangeSummary}}      | {{DD-MM-YYYY}} |
+| `v1.1`           | `-` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | Update template | 16-12-2025 |
 
 ## Purpose
 
-This SOP defines the standardized workflow for managing Helpdesk tickets in Request Tracker (RT) for {{Node}}. It ensures consistent handling, clear ownership, timely communication, complete internal traceability, and compliance with applicable security and privacy requirements. The service objective is to provide a **first response** within **{{SLA_FirstResponse}} working hours** from the user’s latest message, and to provide **status updates** at least every **{{SLA_UpdateCadence}} working hours** while the ticket remains open.
+This SOP defines the standardized workflow for managing Helpdesk tickets in Request Tracker (RT) for {{Node}}. It ensures consistent handling, clear ownership, timely communication, complete internal traceability, and compliance with applicable security and privacy requirements. The service objective is to provide a **first response** within the time estabilished in the Service Level Agreement of each node.
 
 ## Scope
 
 This SOP applies to all Helpdesk staff handling tickets in RT for {{Node}}, across all queues under {{Queue}}. It covers ticket intake, triage, assignment, investigation, escalation, user communication, documentation, and closure.
-This SOP must be used in conjunction with:
-
-* SOP: *EGA Helpdesk Ticket Assignment* (`FEGA-SOP0003`)
-* SOP: *Security/Incident Handling* ({{LinkOrID}})
-* SOP: *User Access / Authorization Requests* ({{LinkOrID}})
-* SOP: *Data Submission / Metadata Curation* ({{LinkOrID}})
 
 ## Definitions
 
-**Working hours:** {{WorkingHours}} (include timezone).
 **First response:** First meaningful Helpdesk reply addressing the user’s request (not an auto-ack).
 **Update:** A user-visible message with progress, next action, and expected timeline.
 **Internal note:** RT comment visible to staff only; must capture decisions, evidence, and cross-references.
 **PII / sensitive data:** Any personal data, credentials, access tokens, or dataset-level sensitive attributes.
 
-## Roles and Responsibilities
-
-**Helpdesk Officer (Ticket Owner):** Primary handler; responsible for triage, communication, documentation, and SLA compliance.
-**Helpdesk Lead / Duty Manager:** Ensures coverage, resolves conflicts, approves escalations, and enforces SOP adherence.
-**Engineering / Dev Support:** Handles technical changes; responds to escalations; provides ETAs for user-facing updates.
-**Security Officer (if applicable):** Handles suspected incidents, suspicious access, and data exposure.
-
 ## Tools and Systems
 
 * RT (Request Tracker): ticket management and audit trail
-* JIRA (or equivalent): development work tracking
 * Knowledge base / SOP repository: approved procedures and answers
-* Secure file transfer mechanism (if needed): {{Mechanism}}
 * Approved communication channels: RT only for official user communication unless otherwise stated
-
-## Service Levels
-
-* **SLA — First response:** {{SLA_FirstResponse}} working hours from last user message
-* **SLA — Update cadence (open tickets):** every {{SLA_UpdateCadence}} working hours
-* **SLA — Closure after no reply:** close after {{SLA_ResolveNoReply}} calendar days since last user response, after sending a final reminder (see “No Reply Closure”)
 
 ## Ticket Taxonomy
 
@@ -90,20 +68,23 @@ Each Helpdesk Officer must configure RT to surface actionable work immediately:
    * “Tickets owned by me in status Open”
    * “Tickets owned by me awaiting reply” (Waiting on user vs waiting on Helpdesk must be clearly distinguished)
    * “Unowned new tickets” (triage queue)
+     
 2. Create a saved search named: **`My — Needs Action`** with these rules:
 
    * Owner = me
    * Status IN (New, Open)
    * Exclude status “Waiting on user” unless user replied since last Helpdesk message
+     
 3. Enable notifications for:
 
    * User replies on owned tickets
    * @mentions / watchers
+     
 4. Verify at start of each week that the dashboard still reflects SLA-critical tickets.
 
 ## Procedure
 
-### 1) Intake and Triage (must happen within {{TriageWindow}} working hours)
+### 1) Intake and Triage 
 
 1. Open new/unowned tickets view.
 2. Read the user’s last message and identify:
@@ -119,15 +100,15 @@ Each Helpdesk Officer must configure RT to surface actionable work immediately:
 5. Assign an Owner (yourself or per assignment SOP).
 6. Send **first response** (see templates) unless the ticket is clearly spam/duplicate.
 
-**Triage output must include** an internal note with:
+**Triage output should include** an internal note with:
 
 * Summary of issue in 1–3 lines
 * What you will do next
 * Any cross-references (prior tickets, datasets, accounts)
 
-### 2) First Response Standard (what “good” looks like)
+### 2) First Response Standard 
 
-A compliant first response must include:
+A compliant first response should include:
 
 * Acknowledgement of the exact issue (paraphrase)
 * What information is missing (if any) and why it’s needed
@@ -145,14 +126,7 @@ A compliant first response must include:
    * Conclusion and next action
 3. If the issue requires engineering work:
 
-   * Create/locate a JIRA ticket
-   * Add JIRA ID to RT (custom field or internal note)
    * Set status to “Waiting on dev” and tag `awaiting-dev`
-4. Communicate updates to the user every {{SLA_UpdateCadence}} working hours, even if there is no change, stating:
-
-   * Current status
-   * What is blocking
-   * Next expected milestone / ETA range
 
 ### 4) Requesting Information from the User (Waiting on user)
 
@@ -162,9 +136,9 @@ Only request what is necessary. Prefer structured requests.
 2. Set status to “Waiting on user” and tag `awaiting-user`.
 3. If user does not respond:
 
-   * Send Reminder 1 after {{Reminder1Days}} days
-   * Send Reminder 2 (final) after {{Reminder2Days}} days
-   * Close after {{SLA_ResolveNoReply}} days (see “No Reply Closure”)
+   * Send Reminder 1 after {{X}} days
+   * Send Reminder 2 (final) after {{X}} days
+   * Close after {{X}} days (see “No Reply Closure”)
 
 ### 5) Escalation Rules
 
@@ -208,23 +182,15 @@ A ticket may be resolved when:
 * The Helpdesk provides a complete answer and no further action is required, OR
 * “No reply closure” conditions are met
 
-Before resolving:
-
-1. Ensure internal notes include:
-
-   * Root cause (if known) or best explanation
-   * What changed / what the user should do
-   * Links to JIRA/KB as applicable
-2. Send a final user-facing message summarizing:
+Before resolving, send a final user-facing message summarizing:
 
    * What was done
    * Outcome
-   * What to do if it recurs (including how to reopen)
 
 ### 9) No Reply Closure (mandatory steps)
 
 1. Send a final reminder (“We will close in X days if no response”).
-2. After {{SLA_ResolveNoReply}} days since last user reply:
+2. After {{X}} days since last user reply:
 
    * Resolve the ticket with a closure note
    * Include how to reopen or submit a new ticket
@@ -238,11 +204,11 @@ Subject: Re: {{TicketSubject}}
 Message:
 “Thanks for your message. To confirm, you are experiencing {{short paraphrase}}.
 Next, I will {{next action}}. If you can share the following details, I can proceed faster: {{minimal checklist}}.
-We aim to respond within {{SLA_FirstResponse}} working hours and will update you at least every {{SLA_UpdateCadence}} working hours while this is in progress.”
+We aim to respond within {{X}} working hours and will update you at least every {{X}} working hours while this is in progress.”
 
 ### B) Waiting on dev update
 
-“Quick update: this is now tracked internally as {{JIRA_ID}}. At the moment we are waiting for {{blocking item}}. I will update you again by {{date}} (or within {{SLA_UpdateCadence}} working hours).”
+“Quick update: this is now tracked internally as {{ISSUE_ID}}. At the moment we are waiting for {{blocking item}}. I will update you again by {{date}} (or within {{X}} working hours).”
 
 ### C) Need more info (structured)
 
@@ -291,10 +257,8 @@ We aim to respond within {{SLA_FirstResponse}} working hours and will update you
 RT is the system of record. All actions must be traceable via:
 
 * Ticket history
-* Internal notes for decisions and evidence
-* Links to JIRA/KB/SOP references
 
 ## Training and Review
 
 * New Helpdesk staff must complete onboarding using this SOP and process 3 tickets under supervision.
-* SOP review frequency: every {{ReviewCadence}} months, or after any major process/tool change.
+* SOP review frequency: every {{X}} months, or after any major process/tool change.
