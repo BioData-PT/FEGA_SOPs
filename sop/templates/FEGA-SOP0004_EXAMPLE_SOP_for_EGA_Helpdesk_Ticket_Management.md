@@ -1,44 +1,95 @@
-# FEGA SOP - EXAMPLE SOP for EGA Helpdesk Ticket Management
+# FEGA SOP — SOP for EGA Helpdesk Ticket Management (CONCISE TEMPLATE)
 
-| Metadata | Value |
-| -- | -- |
-| Template ID | `FEGA-SOP0004` |
-| Template version | `v1.0` |
-| Topic | Internal Node Processes |
-| SOP type | SOP |
-| Node | CEGA |
-| Instance version | `—` |
+| Metadata         | Value                   |
+| ---------------- | ----------------------- |
+| Template ID      | `FEGA-SOP0004`          |
+| Template version | `v1.0`                  |
+| Topic            | Internal Node Processes |
+| SOP type         | SOP                     |
+| Node             | {{Node}}                |
+| Instance version | `{{InstanceVersion}}`   |
 
 ## Document History
 
-| Template version | Instance version | Author(s) | Description of changes | Date |
-| -- | -- | -- | -- | -- |
-| `v1.0` | `—` | Giselle Kerry - Senior Helpdesk Officer | Initial release | 30-09-2019 |
+| Template version | Instance version      | Author(s)                               | Description of changes | Date           |
+| ---------------- | --------------------- | --------------------------------------- | ---------------------- | -------------- |
+| `v1.0`           | `—`                   | Giselle Kerry - Senior Helpdesk Officer | Initial release        | 30-09-2019     |
+| `v1.0`           | `{{InstanceVersion}}` | {{AuthorList}}                          | {{ChangeSummary}}      | {{DD-MM-YYYY}} |
 
 ## Purpose
 
-EGA Helpdesk provides assistance to its users by using the Request Tracker (RT) system. Through the course of a year, EGA Helpdesk responds to thousands of tickets across a wide variety of issues. The purpose of this SOP is to ensure that all Helpdesk staff can manage their ticket load in a time efficient manner. Our goal is to provide a response within 48 working hours of each user reply and to ensure that no users' communications are missed.
+Standardize handling of RT tickets for {{Node}} to ensure no user messages are missed and SLAs are met.
 
 ## Scope
 
-This SOP should be followed by all Helpdesk staff at all times when taking and dealing with Helpdesk tickets and should be read in conjunction with the SOP for [EGA Helpdesk ticket assignment](./FEGA-SOP0003_EXAMPLE_SOP_for_EGA_Helpdesk_Ticket_Assignment.md).
+Applies to all Helpdesk staff managing tickets in RT for {{Node}}. Read together with SOP `FEGA-SOP0003` (Ticket Assignment) and any Security/Incident SOP used by the node.
+
+## Service Levels
+
+Working hours: {{WorkingHours}} (Europe/Lisbon unless stated).
+First response: within {{SLA_FirstResponse}} working hours from last user message.
+Update cadence (open tickets): at least every {{SLA_UpdateCadence}} working hours.
+No-reply closure: close after {{SLA_NoReplyCloseDays}} days since last user reply (after final reminder).
+
+## Standard Status + Tags
+
+Status (minimum): New, Open, Waiting on user, Waiting on dev, Resolved, Reopened.
+Tags (minimum): `awaiting-user`, `awaiting-dev`, `long-running`, `holiday-priority`, `incident-suspected`, `large-submission`, `duplicate`, `spam`.
 
 ## Procedure
 
-1. Make sure you set up RT so you can instantly see tickets that are awaiting a reply when you log into the system.
+### 1) Triage (new/unowned)
 
-2. Get into good habits of answering those tickets awaiting a reply first thing in the morning (or as soon as you start on work Helpdesk).
+1. Read last user message; classify Type and Priority (P1–P4).
+2. Set Owner (per assignment SOP). No ticket remains unowned beyond triage.
+3. If sensitive data (passwords/tokens) is present: do not quote it; instruct user to rotate/remove; proceed via approved secure channel.
+4. Send first response (meaningful acknowledgement + next step + what info is needed).
 
-3. Only take tickets when you have answered all of your existing tickets.
+### 2) Work (owned tickets)
 
-4. If you are struggling to keep on top of your tickets, **ask for help**.
+1. Document actions/decisions in internal notes (what checked + outcome + next step).
+2. Keep ticket status accurate:
 
-5. Where tickets are waiting on development work, make sure that you try to update the user every 48 hours and manage their expectations accordingly (make sure that these tickets are cross referenced clearly with the corresponding JIRA ticket(s)).
+   * Waiting on user → ask specific questions; tag `awaiting-user`
+   * Waiting on dev → create/link JIRA; tag `awaiting-dev`
+3. While open, update user at least every {{SLA_UpdateCadence}} working hours (even “no change”, with next date).
 
-6. Resolve any tickets that you believe can be resolved when it is 48 hours since the last correspondence from the user.
+### 3) Cross-referencing development (JIRA)
 
-7. When you know you have a significant amount of annual leave coming up (i.e. one week or more), refrain from taking new tickets the week before (if possible) and resolve down as many of the existing ones as you can, letting the user know that you are going on annual leave and that if they need further assistance they should create a new ticket.
+If engineering work is required:
 
-8. The day before you go on leave make sure all of your remaining tickets are fully commented so other Helpdesk officers can see what needs to be done. In addition, tag any tickets remaining with "holiday priority". By using this tag, other Helpdesk officers can see any of your tickets that may need addressing instantly by running a simple query.
+1. Create/link JIRA ID in RT (field or internal note).
+2. State user-facing expectation (what is being done + update cadence).
+3. Keep RT as the user communication channel; JIRA is internal tracking.
 
-9. In exceptional cases, you may be working on a ticket that will be open for a long time. In this instance tag them with the "long running" custom tag in combination with any other appropriate tags, e.g. "large submission". After each communication with the user, make sure reminders are updated and new dates are set so that you are sure to follow up with them.
+### 4) Escalation
+
+Escalate immediately to Helpdesk Lead (and Security if applicable) when:
+
+* P1/incident suspicion (`incident-suspected`)
+* potential data exposure, suspicious access, or widespread outage
+* deadlines/impact cannot be met without intervention
+  Record escalation reason + evidence in internal notes.
+
+### 5) Leave / coverage
+
+If away ≥ 1 week:
+
+1. Stop taking new tickets the week before where possible.
+2. Before leave: add a final internal note to each open ticket (status + next step + links) and tag `holiday-priority`.
+
+### 6) Resolution and closure
+
+Resolve when fixed/answered, with a user message including verification steps.
+No-reply closure:
+
+1. Send final reminder warning closure.
+2. Close after {{SLA_NoReplyCloseDays}} days since last user reply, with reopen instructions.
+
+## Minimal message templates
+
+First response: “We received your request about {{issue}}. Next we will {{action}}. Please provide {{minimal info}}. We will respond within {{SLA_FirstResponse}} working hours and update at least every {{SLA_UpdateCadence}} working hours while open.”
+
+Waiting on dev: “This is tracked as {{JIRA_ID}}. Current blocker: {{blocker}}. Next update by {{date}} (or within {{SLA_UpdateCadence}} working hours).”
+
+Final reminder: “If we do not hear back within {{X}} days, we will close this ticket. Reply to reopen.”
