@@ -1,10 +1,10 @@
-# FEGA SOP - SOP for Federated EGA Metadata Check and Release Protocol (FEGA Portugal)
+# FEGA SOP - SOP for Federated EGA Helpdesk - Metadata Check and Release (FEGA Portugal)
 
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-PT-SOP0018` |
 | Template version | `v2.2` |
-| Topic | Joint CEGA/FEGA Node Processes |
+| Topic | SOP for Federated EGA Helpdesk |
 | SOP type | SOP |
 | Node | FEGA-PT |
 | Instance version | `v1.0` |
