@@ -30,6 +30,8 @@ Curated list of SOP templates and node-specific instances.
 
 | Name | Identifier | Template version | Topic | SOP type | Node | Instance version | Steps | Last updated |
 | --- | --- | ---: | --- | --- | --- | ---: | ---: | --- |
+| Helpdesk Ticket Assignment (FEGA Portugal) | [FEGA-PT-SOP0003](sop/instances/FEGA-PT-SOP0003_Helpdesk_Ticket_Assignment.md) | v1.0 | Internal Node Processes | SOP | FEGA-PT | v1.0 | 5 | 16-12-2025 |
+| Helpdesk Ticket Management (FEGA Portugal) | [FEGA-PT-SOP0004](sop/instances/FEGA-PT-SOP0004_Helpdesk_Ticket_Management.md) | v1.0 | Internal Node Processes | SOP | FEGA-PT | v1.0 | 9 | 16-12-2025 |
 | Add new Helpdesk officers to your Helpdesk Portal (FEGA Portugal) | [FEGA-PT-SOP0012](sop/instances/FEGA-PT-SOP0012_Add_new_Helpdesk_officers_to_your_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 5 | 15-12-2025 |
 | Grant submitter role to FEGA user using the Helpdesk Portal (FEGA Portugal) | [FEGA-PT-SOP0013](sop/instances/FEGA-PT-SOP0013_Grant_submitter_role_to_FEGA_user_using_the_Helpdesk_Portal.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.2 | 6 | 15-12-2025 |
 | How to obtain Helpdesk role for the first time (FEGA Portugal) | [FEGA-PT-SOP0014](sop/instances/FEGA-PT-SOP0014_How_to_obtain_Helpdesk_role_for_the_first_time.md) | v1.1 | SOP for Federated EGA Helpdesk | SOP | FEGA-PT | v1.1 | 6 | 15-12-2025 |
