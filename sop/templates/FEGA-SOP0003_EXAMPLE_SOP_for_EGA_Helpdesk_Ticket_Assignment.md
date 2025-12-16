@@ -3,10 +3,10 @@
 | Metadata | Value |
 | -- | -- |
 | Template ID | `FEGA-SOP0003` |
-| Template version | `v1.0` |
+| Template version | `v1.1` |
 | Topic | Internal Node Processes |
 | SOP type | SOP |
-| Node | CEGA |
+| Node | `-` |
 | Instance version | `—` |
 
 ## Document History
@@ -14,10 +14,11 @@
 | Template version | Instance version | Author(s) | Description of changes | Date |
 | -- | -- | -- | -- | -- |
 | `v1.0` | `—` | Giselle Kerry - Senior Helpdesk Officer | Initial release | 30-09-2019 |
+| `v1.1` | `—` | Jorge Oliveira, Jorge Silva, Miguel Cisneiros | Update template | 16-12-2025 |
 
 ## Purpose
 
-EGA Helpdesk provides support to its users by using the Request Tracker (RT) system. Through the course of a year, Helpdesk responds to thousands of tickets across a wide variety of issues. The purpose of this SOP is to ensure that all Helpdesk staff act in a consistent manner, and more importantly that each user has the same experience.
+EGA Helpdesk provides support to its users by using the Request Tracker (RT) system. The purpose of this SOP is to ensure that all Helpdesk staff act in a consistent manner, and more importantly that each user has the same experience.
 
 ## Scope
 
@@ -25,25 +26,22 @@ This SOP should be followed by all Helpdesk staff at all times when taking and d
 
 ## Procedure
 
-1. **Always** take the next ticket in the queue (unless it is specifically addressed to someone in which case let that HD individual know (if they are on annual/sick leave then take the ticket and answer if you can).
+- Pre-requisites. Get familiar with the [Request Tracker Interface Manual](https://rt-wiki.bestpractical.com/wiki/ManualUsingWebInterface) and in case of doubt, ask your supervisor.
+
+1. **Always** take the next ticket in the queue, unless it is specifically addressed to someone in which case let that helpdesker (HD) know (if they are on annual/sick leave then take the ticket and answer if you can).
 
 2. Read the ticket carefully and then follow the appropriate SOP depending on the issue.
 
 3. Reply to the ticket wherever possible using an appropriate RT article. Once you have replied to the ticket make sure that you:
 
-   1. Apply the appropriate custom tag (if unsure ask)
+   1. Apply the appropriate custom tag
    2. Add the amount of time spent
    3. Set the status tag of the ticket to say if it is waiting on user or helpdesk action
    4. **ALWAYS** set an appropriate reminder (this helps not only you, but also another HD should they have to pick up your ticket)
 
-4. If you still do not know how to answer the ticket, **ask for help** (it is the only way to learn).
+4. Considerations:
 
-   1. In the first instance, you can message the #helpdesk channel in the EGA Slack Workspace.
-   2. If there is no answer on Slack, you can contact the EGA Helpdesk Team Lead(s).
-
-5. Considerations:
-
-   1. **Do not phone a user unless they specifically request you to do so, or offer for the user to ring you, except in exceptional circumstances**. Exceptional circumstances are considered to be vocal complaints, issues arising from grant funded work or security issues. **If you are unsure if you should make or take a call, ask for advice (see point 2 above)**. If you make or take a call make sure you take full notes of the conversation and then reply to the RT thread stating clearly what has been agreed. This then gives the user the opportunity to see if you and they have understood the conversation correctly.
+   1. **Do not phone a user unless they specifically request you to do so, or offer for the user to ring you, except in exceptional circumstances**. Exceptional circumstances are considered to be vocal complaints, issues arising from grant funded work or security issues. **If you are unsure if you should make or take a call, ask for advice**. If you make or take a call make sure you take full notes of the conversation and then reply to the RT thread stating clearly what has been agreed. This then gives the user the opportunity to see if you and they have understood the conversation correctly.
 
    2. If something is "not working" at EGA, do not state this in the correspondence, as this is bad practice and makes us look very unprofessional. Acknowledge the users issue and say that you will investigate accordingly or escalate to an engineer.
 
