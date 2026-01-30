@@ -48,3 +48,14 @@ Start from `sop/templates/FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md`.
 - Copy the template and update metadata (Template ID, Template version, Topic, SOP type, Node, Instance version).
 - Fill in Document Overview and Document History with owner, authors, dates, and key changes.
 - Replace placeholders for purpose, scope, background, diagrams, procedures, and references with node-specific content.
+
+## License and Attribution
+
+This repository is derivative work based on the [GDI Standard Operating Procedures](https://github.com/GenomicDataInfrastructure/standard-operating-procedures), authored by the [Genomic Data Infrastructure (GDI)](https://github.com/GenomicDataInfrastructure) project contributors, licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
+
+This work is released under the same AGPL-3.0 license. Main changes from the original:
+
+- Adapted SOP templates for the Federated EGA (FEGA) context
+- Created node-specific SOP instances for FEGA-Portugal (FEGA-PT)
+- Added guidance on SOP compliance assessment
+- Restructured and extended documentation for FEGA node operations
