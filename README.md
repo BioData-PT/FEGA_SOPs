@@ -43,6 +43,7 @@ Curated list of SOP templates and node-specific instances.
 | Withdrawing FEGA studies/datasets from the EGA website (FEGA Portugal) | [FEGA-PT-SOP0020](sop/instances/FEGA-PT-SOP0020_Withdrawing_FEGA_studies_datasets_from_the_EGA_website.md) | v1.0 | Joint CEGA/FEGA Node Processes | SOP | FEGA-PT | v1.0 | 3 | 15-12-2025 |
 
 ## Authoring a new SOP
+
 Start from `sop/templates/FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md`.
 
 - Copy the template and update metadata (Template ID, Template version, Topic, SOP type, Node, Instance version).
@@ -51,7 +52,8 @@ Start from `sop/templates/FEGA-SOP0021_TEMPLATE_Federated_EGA_SOP_-_v1.1.md`.
 
 ## License and Attribution
 
-This repository is derivative work based on the [GDI Standard Operating Procedures](https://github.com/GenomicDataInfrastructure/standard-operating-procedures), authored by the [Genomic Data Infrastructure (GDI)](https://github.com/GenomicDataInfrastructure) project contributors, licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
+This repository is derivative work based on the [GDI Standard Operating Procedures](https://github.com/GenomicDataInfrastructure/standard-operating-procedures), authored by the [Genomic Data Infrastructure (GDI)](https://github.com/GenomicDataInfrastructure) project contributors — including Marcos Casado Barbero (EMBL-EBI), Mallory Freeberg (EMBL-EBI), Gabriele Rinck (EMBL-EBI), and Silvia Bahena (EMBL-EBI).
+ — licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
 
 This work is released under the same AGPL-3.0 license. Main changes from the original:
 
