@@ -14,15 +14,16 @@
 | Template version | Instance version      | Author(s)      | Description of changes | Date           |
 | ---------------- | --------------------- | -------------- | ---------------------- | -------------- |
 | `v1.0`           | `—`                   | Jorge Silva, Jorge Oliveira, Miguel Cisneiros | Initial release        | 16-12-2025     |
+| `v1.0`           | `v1.0`                | Jorge Silva, Jorge Oliveira, Miguel Santos | Instatiate FEGA PT Node Security requirements and response      | 24-02-2026 |
 | `v1.0`           | `{{InstanceVersion}}` | {{AuthorList}} | {{ChangeSummary}}      | {{DD-MM-YYYY}} |
 
 ## 1. Purpose
 
-This SOP defines how {{Node}} detects, triages, contains, eradicates, recovers from, and learns from security incidents affecting the Federated European Genome-phenome Archive (FEGA) services operated by the node. It ensures rapid risk reduction, correct notifications, evidence preservation, and consistent, auditable handling aligned with FEGA’s federated responsibilities. 
+This SOP defines how FEGA-PT Node detects, triages, contains, eradicates, recovers from, and learns from security incidents affecting the Federated European Genome-phenome Archive (FEGA) services operated by the node. It ensures rapid risk reduction, correct notifications, evidence preservation, and consistent, auditable handling aligned with FEGA’s federated responsibilities. 
 
 ## 2. Scope
 
-Applies to all security incidents impacting any {{Node}} FEGA-facing component, including but not limited to:
+Applies to all security incidents impacting any FEGA-PT Node FEGA-facing component, including but not limited to:
 
 * Node authentication/authorisation surfaces (AAI integration, identity providers, service accounts)
 * Node ↔ Central EGA integration channels (e.g., messaging integration) 
@@ -31,13 +32,13 @@ Applies to all security incidents impacting any {{Node}} FEGA-facing component, 
 * Cryptography and key management (Crypt4GH node key pairs; TLS certificates; secrets vaults) 
 * Public/controlled metadata exposure (including prevention of personal metadata publication) 
 
-Out of scope: incidents solely within Central EGA systems; however, {{Node}} must coordinate when node incidents could propagate across federation or involve shared processes. 
+Out of scope: incidents solely within Central EGA systems; however, FEGA-PT Node must coordinate when node incidents could propagate across federation or involve shared processes. 
 
 ## 3. Definitions and data categories
 
 ### 3.1 Security incident (operational)
 
-A security incident is any event that results in, or presents a credible risk of, unauthorised access to, unauthorised disclosure of, loss of integrity of, or loss of availability of FEGA services or data handled by {{Node}}.
+A security incident is any event that results in, or presents a credible risk of, unauthorised access to, unauthorised disclosure of, loss of integrity of, or loss of availability of FEGA services or data handled by FEGA-PT Node.
 
 ### 3.2 FEGA-relevant data categories
 
@@ -68,16 +69,10 @@ Central EGA and FEGA nodes have distinct operational scopes; nodes run services 
 Assign severity at triage and revise as needed.
 
 * **SEV-1 (Critical)**: confirmed or strongly suspected exposure of Research Data or Personal Metadata; active compromise; federation impact; ransomware; key compromise affecting confidentiality.
-
-  * Triage SLA: start within {{TriageSLA_Sev1}} (e.g., 1 hour, working or on-call)
  
 * **SEV-2 (High)**: likely compromise of Administrative Data; privilege escalation attempt; significant service disruption; confirmed malware without evidence of data access yet.
-
-  * Triage SLA: {{TriageSLA_Sev2}}
     
 * **SEV-3 (Moderate)**: suspicious activity with limited scope; failed intrusion with credible risk; localised outage with no evidence of unauthorised access.
-
-  * Triage SLA: {{TriageSLA_Sev3}}
    
 * **SEV-4 (Low)**: policy violations without system compromise (e.g., user credential sharing), minor misconfigurations, non-exploitable vulnerabilities.
 
@@ -95,7 +90,7 @@ Assign severity at triage and revise as needed.
 Any staff member who suspects an incident must:
 
 1. Create an RT **SEC-INCIDENT** ticket (or equivalent), marked **restricted**, and
-2. Notify on-call/security contact immediately: {{SecurityContact}}.
+2. Notify on-call/security contact immediately: fegaportugal@biodata.pt.
 
 If a DAC suspects a breach, the handler must collect affected dataset identifiers, suspected timeframe, and suspected unauthorised users (if available) and treat as SEV-1/2 until proven otherwise. 
 
@@ -109,7 +104,7 @@ If there is an active compromise in progress, prioritise stopping further damage
 
 Within the severity SLA:
 
-* Assign Incident Commander and record start time (use explicit timestamp: `DD-MM-YYYY HH:MM` in {{Timezone}}).
+* Assign Incident Commander and record start time (use explicit timestamp: `DD-MM-YYYY HH:MM`).
 * Classify affected data categories (Administrative / Personal Metadata / Research Data). 
 * Identify affected components from the FEGA node stack (MQ, inbox, ingest, archive, file DB, outbox, portal/API, key management). 
 * Start an **Incident Log** (append-only) documenting:
@@ -177,7 +172,7 @@ Close the incident only when:
 
 * containment is complete and verified,
 * eradication actions are implemented,
-* recovery is stable for {{StabilityWindow}} (e.g., 48 hours),
+* recovery is stable for 48 hours.
 * notifications and documentation are complete,
 * post-incident actions are assigned with owners and dates.
 
@@ -189,7 +184,8 @@ Close the incident only when:
 * **Inform Central EGA / FEGA Operations** if:
 
   * any cross-node integration is impacted (MQ federation link, shared workflows), or
-  * there is any risk of federation-wide trust impact. 
+  * there is any risk of federation-wide trust impact.
+    
 * **Inform DAC/Data Controller** when:
 
   * Research Data or Personal Metadata may be involved, or
@@ -204,11 +200,11 @@ Close the incident only when:
 
 Include:
 
-* incident ID, start time (`DD-MM-YYYY HH:MM {{TZ}}`)
-* severity, impacted components, and impacted data categories
-* known affected dataset accessions (if applicable)
-* actions taken (containment)
-* current risk assessment and next update time
+* incident ID, start time (`DD-MM-YYYY HH:MM {{TZ}}`).
+* severity, impacted components, and impacted data categories.
+* known affected dataset accessions (if applicable).
+* actions taken (containment).
+* current risk assessment and next update time.
 
 ## 9. FEGA-specific incident playbooks (concise)
 
@@ -216,93 +212,113 @@ Include:
 
 Contain:
 
-* disable account; invalidate sessions/tokens; reset credentials
-* review access-right changes and data access logs 
-* if unauthorised dataset access suspected: pause outbox/download and notify DAC/Data Controller 
-  Recover:
-* re-enable with MFA/stronger assurance if feasible; add monitoring rule
+* inform Central-EGA of the situation and request account suspension.
+* review access-right changes and data access logs.
+* if unauthorised dataset access suspected: pause outbox/download and notify DAC/Data Controller. 
+
+Recover:
+
+* re-enable with stronger assurance if feasible; add monitoring rule.
 
 ### 9.2 Suspected unauthorised dataset download / outbox abuse (SEV-1)
 
 Contain:
 
-* stop distribution for impacted dataset(s); freeze outbox staging
-* preserve download logs, access logs, storage logs
-  Coordinate:
+* block distribution for impacted dataset(s).
+* preserve download logs, access logs, storage logs.
+
+Coordinate:
+
 * notify DAC/Data Controller with dataset list and timeframe 
 
 ### 9.3 Crypt4GH private key compromise (SEV-1)
 
 Contain:
 
-* revoke key usage immediately; generate new node key pair; restrict key access path 
+* generate new node key pair.
+  
   Eradicate/Recover:
-* assess which files were encrypted to compromised key
-* plan re-encryption / re-keying strategy (prioritise most sensitive/high-risk datasets)
-* coordinate with submitters and workflows as needed (avoid data duplication)
+  
+* assess which files were decrypted using compromised key.
+* plan re-encryption / re-keying strategy (prioritise most sensitive/high-risk datasets).
 
 ### 9.4 MQ / Central integration anomaly (SEV-2)
 
 Contain:
 
-* suspend federation/shovel links; rotate MQ credentials; restrict routes 
-  Investigate:
-* review MQ auth, connection history, message patterns
-  Recover:
-* restore link only after credential rotation + configuration review + monitoring enabled
+* suspend federation/shovel links; rotate MQ credentials.
+
+Investigate:
+  
+* connection history, message patterns.
+  
+Recover:
+
+* restore link only after credential rotation + configuration review + monitoring enabled.
 
 ### 9.5 Personal metadata accidentally exposed in public catalogue (SEV-1)
 
 Contain:
 
-* immediately remove/disable public exposure; invalidate caches if applicable
-  Investigate:
-* determine pathway (metadata submission error, pipeline transform, human error)
-  Notify:
-* DPO/legal + Data Controller; assess if formal notification required
-  Prevent:
-* add automated checks in metadata validation pipeline (block release until fixed)
+* inform Central-EGA and request dataset removal or modification, depending on the exposed data.
+
+Investigate:
+  
+* determine pathway (metadata submission error, pipeline transform, human error).
+
+Notify:
+  
+* DPO/legal + Data Controller; assess if formal notification required.
+
+Prevent:
+  
+* add automated checks in metadata validation pipeline (block release until fixed).
 
 ### 9.6 Ransomware / destructive malware on archive storage (SEV-1)
 
 Contain:
 
-* isolate storage; disconnect affected hosts; preserve snapshots
-  Recover:
-* restore from verified clean backups; validate integrity and access control
-  Post:
-* credential rotation; hardening; segmentation review
+* isolate storage; disconnect affected hosts; preserve snapshots.
+
+Recover:
+  
+* restore from verified clean backups; validate integrity and access control.
+
+Post:
+
+* credential rotation; segmentation review.
 
 ## 10. Auditability and minimum logging requirements
 
 The node must maintain logs sufficient to reconstruct:
 
-* changes to user access rights
-* data access requests / dataset access events
-* resource usage and operational actions 
+* changes to user access rights.
+* dataset access events.
+* operational actions. 
 
-For FEGA node architecture, ensure log coverage across inbox/ingest/archive/outbox and MQ integration components. 
+For FEGA node architecture, ensure log coverage across inbox/archive/outbox and MQ integration components. 
 
 ## 11. Post-incident review (mandatory)
 
-Within {{PostMortemDeadline}} (e.g., 10 working days):
+Within 10 working days:
 
 * produce a post-incident report containing:
 
   * timeline, root cause, impacted data categories, scope, and decisions
   * what worked / what failed
   * preventive actions with owners and due dates
+    
 * update risk register and monitoring rules
 * update this SOP if gaps were found
 
 ## 12. Training and exercises
 
-* Onboarding: all operators must complete a tabletop exercise using SEV-1 scenario within 30 days of joining.
-* Recurring: run at least {{ExerciseCadence}} (e.g., quarterly) tabletop + one technical recovery drill (restore + integrity validation).
+* Onboarding: all operators must complete a simulation exercise using SEV-1 scenario.
+* Recurring: run at least byannually simulation + one technical recovery drill (restore + integrity validation).
 
 ## 13. Appendix A — Incident record (fields)
 
-* Incident ID: `{{Node}}-SEC-{{YYYY}}-{{NNN}}`
+* Incident ID: `FEGA-PT Node-SEC-{{YYYY}}-{{NNN}}`
 * Start time / end time (explicit)
 * Severity history (with timestamps)
 * Affected components (select from FEGA component list)
@@ -316,9 +332,6 @@ Within {{PostMortemDeadline}} (e.g., 10 working days):
 
 ## 14. Appendix B — Contact list (placeholders)
 
-* Security/on-call: {{SecurityContact}}
-* DPO/legal: {{DPOContact}}
-* Node lead: {{NodeLeadContact}}
-* Central EGA liaison: {{CentralEGAContact}}
-* FEGA Operations Committee channel: {{FEGAOpsContact}}
-* Helpdesk restricted queue: {{Queue}}
+* Security/on-call: fegaportugal@biodata.pt
+* DPO/legal: dpo@biodata.pt
+* Central EGA liaison: ega-operations-comm@ebi.ac.uk
