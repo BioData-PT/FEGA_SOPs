@@ -18,20 +18,20 @@
 
 ## 1. Purpose
 
-This SOP defines how {{Node}} detects, triages, contains, eradicates, recovers from, and learns from security incidents affecting the Federated European Genome-phenome Archive (FEGA) services operated by the node. It ensures rapid risk reduction, correct notifications, evidence preservation, and consistent, auditable handling aligned with FEGA’s federated responsibilities. ([EGA Archive][1])
+This SOP defines how {{Node}} detects, triages, contains, eradicates, recovers from, and learns from security incidents affecting the Federated European Genome-phenome Archive (FEGA) services operated by the node. It ensures rapid risk reduction, correct notifications, evidence preservation, and consistent, auditable handling aligned with FEGA’s federated responsibilities. 
 
 ## 2. Scope
 
 Applies to all security incidents impacting any {{Node}} FEGA-facing component, including but not limited to:
 
 * Node authentication/authorisation surfaces (AAI integration, identity providers, service accounts)
-* Node ↔ Central EGA integration channels (e.g., messaging integration) ([EGA Archive][2])
-* Submission pipeline (submitter inbox, ingest pipeline, metadata submission workflow) ([EGA Archive][2])
-* Storage and distribution (archive storage, file database, backups, outbox/download solutions) ([EGA Archive][2])
-* Cryptography and key management (Crypt4GH node key pairs; TLS certificates; secrets vaults) ([EGA Archive][2])
-* Public/controlled metadata exposure (including prevention of personal metadata publication) ([EGA Archive][5])
+* Node ↔ Central EGA integration channels (e.g., messaging integration) 
+* Submission pipeline (submitter inbox, ingest pipeline, metadata submission workflow) 
+* Storage and distribution (archive storage, file database, backups, outbox/download solutions) 
+* Cryptography and key management (Crypt4GH node key pairs; TLS certificates; secrets vaults) 
+* Public/controlled metadata exposure (including prevention of personal metadata publication) 
 
-Out of scope: incidents solely within Central EGA systems; however, {{Node}} must coordinate when node incidents could propagate across federation or involve shared processes. ([EGA Archive][1])
+Out of scope: incidents solely within Central EGA systems; however, {{Node}} must coordinate when node incidents could propagate across federation or involve shared processes. 
 
 ## 3. Definitions and data categories
 
@@ -43,10 +43,10 @@ A security incident is any event that results in, or presents a credible risk of
 
 Use these terms consistently in incident records:
 
-* **Administrative Data**: operational data generated through running FEGA services (may include direct identifiers like names/emails). ([EGA Archive][5])
-* **Non-personal Metadata**: descriptive metadata not identifying individuals; may be shared to Central for public discovery. ([EGA Archive][5])
-* **Personal Metadata**: metadata that could identify individuals (e.g., demographics/ancestry); must not be shared to public catalogue or exchanged improperly. ([EGA Archive][5])
-* **Research Data**: omics/genetic and health/phenotype data; special category personal data under GDPR context. ([EGA Archive][5])
+* **Administrative Data**: operational data generated through running FEGA services (may include direct identifiers like names/emails). 
+* **Non-personal Metadata**: descriptive metadata not identifying individuals; may be shared to Central for public discovery. 
+* **Personal Metadata**: metadata that could identify individuals (e.g., demographics/ancestry); must not be shared to public catalogue or exchanged improperly. 
+* **Research Data**: omics/genetic and health/phenotype data; special category personal data under GDPR context. 
 
 ## 4. Roles and responsibilities
 
@@ -61,7 +61,7 @@ Use these terms consistently in incident records:
 
 ### 4.2 Federation coordination principle
 
-Central EGA and FEGA nodes have distinct operational scopes; nodes run services for their jurisdictions and must coordinate through FEGA governance/operations where federation-level impact is possible. ([EGA Archive][1])
+Central EGA and FEGA nodes have distinct operational scopes; nodes run services for their jurisdictions and must coordinate through FEGA governance/operations where federation-level impact is possible. 
 
 ## 5. Severity levels and response targets
 
@@ -70,14 +70,15 @@ Assign severity at triage and revise as needed.
 * **SEV-1 (Critical)**: confirmed or strongly suspected exposure of Research Data or Personal Metadata; active compromise; federation impact; ransomware; key compromise affecting confidentiality.
 
   * Triage SLA: start within {{TriageSLA_Sev1}} (e.g., 1 hour, working or on-call)
-  * Update cadence: every {{UpdateCadence_Sev1}} (e.g., 2–4 hours)
+ 
 * **SEV-2 (High)**: likely compromise of Administrative Data; privilege escalation attempt; significant service disruption; confirmed malware without evidence of data access yet.
 
   * Triage SLA: {{TriageSLA_Sev2}}
-  * Update cadence: {{UpdateCadence_Sev2}}
+    
 * **SEV-3 (Moderate)**: suspicious activity with limited scope; failed intrusion with credible risk; localised outage with no evidence of unauthorised access.
 
   * Triage SLA: {{TriageSLA_Sev3}}
+   
 * **SEV-4 (Low)**: policy violations without system compromise (e.g., user credential sharing), minor misconfigurations, non-exploitable vulnerabilities.
 
 ## 6. Detection and reporting channels
@@ -85,7 +86,7 @@ Assign severity at triage and revise as needed.
 ### 6.1 Sources of detection
 
 * Monitoring alerts (availability, auth anomalies, MQ anomalies, storage access patterns)
-* Audit logs indicating unusual access-right changes or resource usage ([EGA Archive][3])
+* Audit logs indicating unusual access-right changes or resource usage 
 * Reports from users, submitters, DAC members, or Data Controllers
 * Central EGA/FEGA operational communications
 
@@ -96,7 +97,7 @@ Any staff member who suspects an incident must:
 1. Create an RT **SEC-INCIDENT** ticket (or equivalent), marked **restricted**, and
 2. Notify on-call/security contact immediately: {{SecurityContact}}.
 
-If a DAC suspects a breach, the handler must collect affected dataset identifiers, suspected timeframe, and suspected unauthorised users (if available) and treat as SEV-1/2 until proven otherwise. ([EGA Archive][4])
+If a DAC suspects a breach, the handler must collect affected dataset identifiers, suspected timeframe, and suspected unauthorised users (if available) and treat as SEV-1/2 until proven otherwise. 
 
 ## 7. Standard incident workflow (mandatory steps)
 
@@ -109,8 +110,8 @@ If there is an active compromise in progress, prioritise stopping further damage
 Within the severity SLA:
 
 * Assign Incident Commander and record start time (use explicit timestamp: `DD-MM-YYYY HH:MM` in {{Timezone}}).
-* Classify affected data categories (Administrative / Personal Metadata / Research Data). ([EGA Archive][5])
-* Identify affected components from the FEGA node stack (MQ, inbox, ingest, archive, file DB, outbox, portal/API, key management). ([EGA Archive][2])
+* Classify affected data categories (Administrative / Personal Metadata / Research Data). 
+* Identify affected components from the FEGA node stack (MQ, inbox, ingest, archive, file DB, outbox, portal/API, key management). 
 * Start an **Incident Log** (append-only) documenting:
 
   * observed indicators
@@ -123,24 +124,25 @@ Within the severity SLA:
 * Preserve relevant logs and system state:
 
   * auth/identity logs, access-right changes, download/outbox logs
-  * MQ connection/auth logs and message routing/shovel events (if applicable) ([EGA Archive][2])
+  * MQ connection/auth logs and message routing/shovel events (if applicable) 
   * storage access logs, integrity/checksum records, backup job logs
 * Snapshot or image affected hosts/containers if feasible.
 * Restrict evidence access to incident team; store securely.
 
 ### 7.4 Step 3 — Containment (limit blast radius)
 
-Containment options may include revoking access, withdrawing/pausing distribution of datasets, disabling ingestion functions, or isolating systems from the network, depending on the incident. ([EGA Archive][4])
+Containment options may include revoking access, withdrawing/pausing distribution of datasets, disabling ingestion functions, or isolating systems from the network, depending on the incident. 
 
 Minimum containment actions to consider by component:
 
-* **Identity / accounts**: disable affected accounts; invalidate sessions/tokens; enforce MFA where supported; reset credentials.
-* **Service accounts/secrets**: rotate secrets; revoke compromised API keys; rotate MQ credentials.
-* **RabbitMQ / federation link**: suspend federation/shovel links if compromise suspected; restrict inbound/outbound routes. ([EGA Archive][2])
-* **Inbox/ingest**: pause ingestion; quarantine suspicious uploads; block submitter endpoint if abused. ([EGA Archive][2])
-* **Outbox/download**: stop distribution; purge staged data if integrity/exfil risk; re-enable only after verification.
-* **Storage**: isolate affected buckets/volumes; enforce read-only mode if necessary; validate backup integrity before restoration.
-* **Cryptographic material**: if Crypt4GH private key compromise is suspected, treat as SEV-1 and initiate key rotation and re-encryption strategy (see playbooks). ([EGA Archive][5])
+* **Identity / accounts**: inform Central-EGA that the account has been compromised and must be suspended immediately.
+* **Service accounts/secrets**: revoke compromised API keys or secrets.
+* **RabbitMQ / federation link**: suspend federation/shovel links if compromise suspected. 
+* **Inbox/ingest malicious file**: quarantine suspicious uploads; block submitter endpoint if abused; inform Central-EGA of the account behaviour and request account suspension. 
+* **Outbox/download exfiltration**: shutdown the distribution system in case of data exfiltration; inform Central-EGA to deactivate account in case of cloud misuse.
+* **Downloaded data misuse**: in case a user if found to upload downloaded data into unsecure external facilities (e.g., cloud), inform Central-EGA to suspend the user's account.
+* **Storage integrity compromising**: isolate affected buckets/volumes; enforce read-only mode if necessary; validate backup integrity before restoration.
+* **Cryptographic material**: if Crypt4GH private key compromise is suspected, treat as SEV-1 and initiate key rotation and re-encryption strategy. 
 
 ### 7.5 Step 4 — Eradication (remove root cause)
 
@@ -160,12 +162,13 @@ Minimum containment actions to consider by component:
   1. identity/auth
   2. MQ integration
   3. ingest
-  4. archive access
-  5. outbox/download
+  4. outbox/download
+     
 * Integrity checks:
 
   * validate hashes/checksums where available
-  * validate that encryption and key separation requirements are maintained (keys not co-located with encrypted data; encrypted in transit and at rest) ([EGA Archive][3])
+  * validate that encryption and key separation requirements are maintained (keys not co-located with encrypted data; encrypted in transit and at rest)
+    
 * Monitor closely for recurrence; keep heightened logging until closure.
 
 ### 7.7 Step 6 — Closure criteria
@@ -186,17 +189,16 @@ Close the incident only when:
 * **Inform Central EGA / FEGA Operations** if:
 
   * any cross-node integration is impacted (MQ federation link, shared workflows), or
-  * there is any risk of federation-wide trust impact. ([EGA Archive][6])
+  * there is any risk of federation-wide trust impact. 
 * **Inform DAC/Data Controller** when:
 
   * Research Data or Personal Metadata may be involved, or
-  * access logs show suspicious access patterns for specific datasets. ([EGA Archive][4])
+  * access logs show suspicious access patterns for specific datasets. 
 
 ### 8.2 Communications rules
 
 * Use RT restricted ticket + approved secure channels; do not paste secrets.
-* External statements must be approved by DPO/legal.
-* Provide updates at the severity-defined cadence, even if “no new findings”.
+* External statements regarding SEV-1 incidents must be approved by DPO/legal.
 
 ### 8.3 Minimal notification content (template)
 
@@ -215,8 +217,8 @@ Include:
 Contain:
 
 * disable account; invalidate sessions/tokens; reset credentials
-* review access-right changes and data access logs ([EGA Archive][3])
-* if unauthorised dataset access suspected: pause outbox/download and notify DAC/Data Controller ([EGA Archive][4])
+* review access-right changes and data access logs 
+* if unauthorised dataset access suspected: pause outbox/download and notify DAC/Data Controller 
   Recover:
 * re-enable with MFA/stronger assurance if feasible; add monitoring rule
 
@@ -227,13 +229,13 @@ Contain:
 * stop distribution for impacted dataset(s); freeze outbox staging
 * preserve download logs, access logs, storage logs
   Coordinate:
-* notify DAC/Data Controller with dataset list and timeframe ([EGA Archive][4])
+* notify DAC/Data Controller with dataset list and timeframe 
 
 ### 9.3 Crypt4GH private key compromise (SEV-1)
 
 Contain:
 
-* revoke key usage immediately; generate new node key pair; restrict key access path ([EGA Archive][2])
+* revoke key usage immediately; generate new node key pair; restrict key access path 
   Eradicate/Recover:
 * assess which files were encrypted to compromised key
 * plan re-encryption / re-keying strategy (prioritise most sensitive/high-risk datasets)
@@ -243,7 +245,7 @@ Contain:
 
 Contain:
 
-* suspend federation/shovel links; rotate MQ credentials; restrict routes ([EGA Archive][2])
+* suspend federation/shovel links; rotate MQ credentials; restrict routes 
   Investigate:
 * review MQ auth, connection history, message patterns
   Recover:
@@ -277,9 +279,9 @@ The node must maintain logs sufficient to reconstruct:
 
 * changes to user access rights
 * data access requests / dataset access events
-* resource usage and operational actions ([EGA Archive][3])
+* resource usage and operational actions 
 
-For FEGA node architecture, ensure log coverage across inbox/ingest/archive/outbox and MQ integration components. ([EGA Archive][2])
+For FEGA node architecture, ensure log coverage across inbox/ingest/archive/outbox and MQ integration components. 
 
 ## 11. Post-incident review (mandatory)
 
@@ -304,7 +306,7 @@ Within {{PostMortemDeadline}} (e.g., 10 working days):
 * Start time / end time (explicit)
 * Severity history (with timestamps)
 * Affected components (select from FEGA component list)
-* Affected data categories (Administrative / Non-personal Metadata / Personal Metadata / Research Data) ([EGA Archive][5])
+* Affected data categories (Administrative / Non-personal Metadata / Personal Metadata / Research Data) 
 * Affected dataset accessions (if applicable)
 * Containment actions (who/when)
 * Evidence list and storage location
